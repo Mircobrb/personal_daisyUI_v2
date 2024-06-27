@@ -9,7 +9,7 @@ youtube video https://www.youtube.com/watch?v=arftp8kFBBg&t=103s
 # launching tailwind
 npm run dev
 
-# todo today
+# todo
 - finish navbar
 - create vh for blocks
 - change icons to outline
