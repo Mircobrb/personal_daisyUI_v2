@@ -17,8 +17,8 @@ in input.css use this snippet to activate red
 }
 
 # todo
-- finish navbar
- -- create swap element for data theme change
- -- 
+Navbar
+  - responsive
+
 - create vh for blocks
 - change icons to outline
