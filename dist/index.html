@@ -14,9 +14,27 @@
     <!--Navbar-->
     <nav class="navbar bg-base-100 border-b border-inherit sticky top-0 z-50">
         <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.94971 11.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M7.94971 23.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M7.94971 35.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <ul class="menu menu-lg dropdown-content rounded-box bg-base-100 z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a href="experience">Experience</a></li>
+                    <li><a href="projects">Projects</a></li>
+                    <li class=""><a href="writings">Writings<span class="badge badge-sm badge-warning">Out
+                                soon</span></a></li>
+                </ul>
+            </div>
             <button class="btn btn-ghost text-xl">Mirco Barbero</button>
         </div>
-        <div class="navbar-center">
+        <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal rounded-box">
                 <li><a href="experience">Experience</a></li>
                 <li><a href="projects">Projects</a></li>

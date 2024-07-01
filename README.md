@@ -16,9 +16,14 @@ in input.css use this snippet to activate red
   border: 1px solid red;
 }
 
+# IP address
+192.168.1.12
+
 # todo
 Navbar
   - responsive
+  - links
 
-- create vh for blocks
-- change icons to outline
+Page blocks
+
+Icons version in outline
