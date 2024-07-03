@@ -21,9 +21,9 @@ in dist/output.css use this snippet to activate red
 
 # todo
 Navbar
-  - responsive
   - links
 
 Page blocks
 
-Icons version in outline
+Icons
+  - change all icons to flowbite icons
