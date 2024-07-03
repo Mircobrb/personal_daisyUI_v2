@@ -10,21 +10,21 @@
     <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
 </head>
 
-<body>
+<body class="h-full">
 
     <!--Navbar-->
-    <nav class="navbar bg-base-100 border-b border-inherit sticky top-0 z-50">
+    <nav class="navbar bg-base-100 border-b border-inherit sticky top-0">
         <div class="navbar-start">
             <!--Dropdown @media-sm-->
             <div class="dropdown lg:hidden">
                 <button class="btn btn-ghost text-base">
                     <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7.94971 11.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M7.94971 23.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M7.94971 35.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
-                            stroke-linejoin="round" />
+                        <path d="M7.94971 11.9497H39.9497" class="stroke-base-content" stroke-width="4"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M7.94971 23.9497H39.9497" class="stroke-base-content" stroke-width="4"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M7.94971 35.9497H39.9497" class="stroke-base-content" stroke-width="4"
+                            stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     Mirco Barbero
                 </button>
@@ -38,9 +38,9 @@
             </div>
             <!--Index Button @media-lg-->
             <button class="btn btn-ghost text-xl hidden lg:flex">
-            <a href="index.html">
-                Mirco Barbero
-            </a>
+                <a href="index.html">
+                    Mirco Barbero
+                </a>
             </button>
         </div>
         <div class="navbar-center hidden lg:flex">
@@ -48,7 +48,8 @@
                 <li><a href="index.html">Who am I</a></li>
                 <li><a href="experience.html">Experience</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li class="indicator"><a href="writings.html">Writings <span class="badge badge-sm badge-warning indicator-item">Out
+                <li class="indicator"><a href="writings.html">Writings <span
+                            class="badge badge-sm badge-warning indicator-item">Out
                             soon</span></a></li>
             </ul>
         </div>
@@ -59,26 +60,46 @@
                 <!--dark mode-->
                 <div class="swap-on" data-set-theme="light" data-act-class="ACTIVECLASS">
                     <svg width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M28.0527 4.41085C22.5828 5.83695 18.5455 10.8106 18.5455 16.7273C18.5455 23.7564 24.2436 29.4545 31.2727 29.4545C37.1894 29.4545 42.1631 25.4172 43.5891 19.9473C43.8585 21.256 44 22.6115 44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C25.3885 4 26.744 4.14149 28.0527 4.41085Z" class="fill-base-content"/>
+                        <path
+                            d="M28.0527 4.41085C22.5828 5.83695 18.5455 10.8106 18.5455 16.7273C18.5455 23.7564 24.2436 29.4545 31.2727 29.4545C37.1894 29.4545 42.1631 25.4172 43.5891 19.9473C43.8585 21.256 44 22.6115 44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C25.3885 4 26.744 4.14149 28.0527 4.41085Z"
+                            class="fill-base-content" />
                     </svg>
                 </div>
 
                 <!--light mode-->
                 <div class="swap-off" data-set-theme="dark" data-act-class="ACTIVECLASS">
                     <svg width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M24 37C31.1797 37 37 31.1797 37 24C37 16.8203 31.1797 11 24 11C16.8203 11 11 16.8203 11 24C11 31.1797 16.8203 37 24 37Z" class="fill-base-content"/>
-                        <path d="M24 6C25.3807 6 26.5 4.88071 26.5 3.5C26.5 2.11929 25.3807 1 24 1C22.6193 1 21.5 2.11929 21.5 3.5C21.5 4.88071 22.6193 6 24 6Z" class="fill-base-content"/>
-                        <path d="M38.5 12C39.8807 12 41 10.8807 41 9.5C41 8.11929 39.8807 7 38.5 7C37.1193 7 36 8.11929 36 9.5C36 10.8807 37.1193 12 38.5 12Z" class="fill-base-content"/>
-                        <path d="M44.5 26.5C45.8807 26.5 47 25.3807 47 24C47 22.6193 45.8807 21.5 44.5 21.5C43.1193 21.5 42 22.6193 42 24C42 25.3807 43.1193 26.5 44.5 26.5Z" class="fill-base-content"/>
-                        <path d="M38.5 41C39.8807 41 41 39.8807 41 38.5C41 37.1193 39.8807 36 38.5 36C37.1193 36 36 37.1193 36 38.5C36 39.8807 37.1193 41 38.5 41Z" class="fill-base-content"/>
-                        <path d="M24 47C25.3807 47 26.5 45.8807 26.5 44.5C26.5 43.1193 25.3807 42 24 42C22.6193 42 21.5 43.1193 21.5 44.5C21.5 45.8807 22.6193 47 24 47Z" class="fill-base-content"/>
-                        <path d="M9.5 41C10.8807 41 12 39.8807 12 38.5C12 37.1193 10.8807 36 9.5 36C8.11929 36 7 37.1193 7 38.5C7 39.8807 8.11929 41 9.5 41Z" class="fill-base-content"/>
-                        <path d="M3.5 26.5C4.88071 26.5 6 25.3807 6 24C6 22.6193 4.88071 21.5 3.5 21.5C2.11929 21.5 1 22.6193 1 24C1 25.3807 2.11929 26.5 3.5 26.5Z" class="fill-base-content"/>
-                        <path d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z" class="fill-base-content"/>
+                        <path
+                            d="M24 37C31.1797 37 37 31.1797 37 24C37 16.8203 31.1797 11 24 11C16.8203 11 11 16.8203 11 24C11 31.1797 16.8203 37 24 37Z"
+                            class="fill-base-content" />
+                        <path
+                            d="M24 6C25.3807 6 26.5 4.88071 26.5 3.5C26.5 2.11929 25.3807 1 24 1C22.6193 1 21.5 2.11929 21.5 3.5C21.5 4.88071 22.6193 6 24 6Z"
+                            class="fill-base-content" />
+                        <path
+                            d="M38.5 12C39.8807 12 41 10.8807 41 9.5C41 8.11929 39.8807 7 38.5 7C37.1193 7 36 8.11929 36 9.5C36 10.8807 37.1193 12 38.5 12Z"
+                            class="fill-base-content" />
+                        <path
+                            d="M44.5 26.5C45.8807 26.5 47 25.3807 47 24C47 22.6193 45.8807 21.5 44.5 21.5C43.1193 21.5 42 22.6193 42 24C42 25.3807 43.1193 26.5 44.5 26.5Z"
+                            class="fill-base-content" />
+                        <path
+                            d="M38.5 41C39.8807 41 41 39.8807 41 38.5C41 37.1193 39.8807 36 38.5 36C37.1193 36 36 37.1193 36 38.5C36 39.8807 37.1193 41 38.5 41Z"
+                            class="fill-base-content" />
+                        <path
+                            d="M24 47C25.3807 47 26.5 45.8807 26.5 44.5C26.5 43.1193 25.3807 42 24 42C22.6193 42 21.5 43.1193 21.5 44.5C21.5 45.8807 22.6193 47 24 47Z"
+                            class="fill-base-content" />
+                        <path
+                            d="M9.5 41C10.8807 41 12 39.8807 12 38.5C12 37.1193 10.8807 36 9.5 36C8.11929 36 7 37.1193 7 38.5C7 39.8807 8.11929 41 9.5 41Z"
+                            class="fill-base-content" />
+                        <path
+                            d="M3.5 26.5C4.88071 26.5 6 25.3807 6 24C6 22.6193 4.88071 21.5 3.5 21.5C2.11929 21.5 1 22.6193 1 24C1 25.3807 2.11929 26.5 3.5 26.5Z"
+                            class="fill-base-content" />
+                        <path
+                            d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z"
+                            class="fill-base-content" />
                     </svg>
                 </div>
             </label>
-            
+
 
             <!--Say hello button-->
             <button class="btn btn-primary">Say hello</button>
@@ -86,54 +107,72 @@
     </nav>
 
     <!--Main content-->
-    <div class="grid">
-
-        <!--Hero block-->
-        <div class="hero">
-            <div class="hero-content">
-                <img src="/assets/mb picture.png" alt="" class="max-w-sm rounded-lg bg-accent">
-                <div>
-                    <h1 class="text-5xl font-bold">Hi I’m Mirco</h1>
-                    <p class="py-6">
-                        UX designer and product owner
-                    </p>
-                    <div>
-                        <button class="btn btn-circle btn-sm">
-                            <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 39H44V24V9H24H4V24V39Z" fill="none" stroke="#333" stroke-width="4" stroke-linejoin="round"/>
-                                <path d="M4 9L24 24L44 9" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M24 9H4V24" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M44 24V9H24" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                        <button class="btn btn-circle btn-sm">
-                            <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4ZM0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z" fill="#333"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.1833 45.4716C18.9898 45.2219 18.9898 42.9973 19.1833 38.798C17.1114 38.8696 15.8024 38.7258 15.2563 38.3667C14.437 37.828 13.6169 36.1667 12.8891 34.9959C12.1614 33.8251 10.5463 33.64 9.89405 33.3783C9.24182 33.1165 9.07809 32.0496 11.6913 32.8565C14.3044 33.6634 14.4319 35.8607 15.2563 36.3745C16.0806 36.8883 18.0515 36.6635 18.9448 36.2519C19.8382 35.8403 19.7724 34.3078 19.9317 33.7007C20.1331 33.134 19.4233 33.0083 19.4077 33.0037C18.5355 33.0037 13.9539 32.0073 12.6955 27.5706C11.437 23.134 13.0581 20.2341 13.9229 18.9875C14.4995 18.1564 14.4485 16.3852 13.7699 13.6737C16.2335 13.3589 18.1347 14.1343 19.4734 16.0001C19.4747 16.0108 21.2285 14.9572 24.0003 14.9572C26.772 14.9572 27.7553 15.8154 28.5142 16.0001C29.2731 16.1848 29.88 12.7341 34.5668 13.6737C33.5883 15.5969 32.7689 18.0001 33.3943 18.9875C34.0198 19.9749 36.4745 23.1147 34.9666 27.5706C33.9614 30.5413 31.9853 32.3523 29.0384 33.0037C28.7005 33.1115 28.5315 33.2855 28.5315 33.5255C28.5315 33.8856 28.9884 33.9249 29.6465 35.6117C30.0853 36.7362 30.117 39.948 29.7416 45.247C28.7906 45.4891 28.0508 45.6516 27.5221 45.7347C26.5847 45.882 25.5669 45.9646 24.5669 45.9965C23.5669 46.0284 23.2196 46.0248 21.837 45.8961C20.9154 45.8103 20.0308 45.6688 19.1833 45.4716Z" fill="#333"/>
-                            </svg>
-                        </button>
-                        <button class="btn btn-circle btn-sm">
-                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                                <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/>
-                                <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
-                              </svg>
-                              
-                        </button>
-                        <button class="btn btn-circle btn-sm"><svg width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.0264 2.20543C11.2914 2.91848 9.27275 5.4053 9.27275 8.36365C9.27275 11.8782 12.1218 14.7273 15.6363 14.7273C18.5947 14.7273 21.0816 12.7086 21.7945 9.97365C21.9293 10.628 22 11.3057 22 12C22 17.5229 17.5229 22 12 22C6.47715 22 2 17.5229 2 12C2 6.47715 6.47715 2 12 2C12.6943 2 13.372 2.07075 14.0264 2.20543Z"
-                                    fill="#1F2937" stroke="#1F2937" stroke-width="2" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>    
         
+    <!--Hero block-->
+    <div class="flex bg-cover p-20" style="background-image: url(/assets/svgBackground.svg);">
+        <div class="flex flex-col justify-center align-middle space-x-20 md:flex-row">
+            <img src="/assets/mb picture.png" alt="" class="max-w-80 rounded-lg bg-accent">
+            <div class="flex flex-col align-middle justify-center space-y-4 ">
+                <h1 class="flex text-6xl font-sans justify-center align-middle">
+                    Hi I’m Mirco
+                </h1>
+                <p class="flex text-2xl font-sans align-middle">
+                    UX designer and product owner
+                </p>
+                <div class="flex justify-center align-middle space-x-4">
+                    <button class="btn btn-circle btn-sm">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z" />
+                            <path
+                                d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-circle btn-sm">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-circle btn-sm">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z"
+                                clip-rule="evenodd" />
+                            <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-circle btn-sm">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M17.5 3a3.5 3.5 0 0 0-3.456 4.06L8.143 9.704a3.5 3.5 0 1 0-.01 4.6l5.91 2.65a3.5 3.5 0 1 0 .863-1.805l-5.94-2.662a3.53 3.53 0 0 0 .002-.961l5.948-2.667A3.5 3.5 0 1 0 17.5 3Z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <div class="">
+        <div class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula purus odio, vitae eleifend tortor rhoncus at. Ut aliquam, odio et pulvinar ornare, tellus sem commodo sapien, sit amet pellentesque risus diam id leo. Fusce laoreet magna eu erat feugiat viverra. Suspendisse ligula quam, sodales ac fermentum id, venenatis ac nunc. Aenean eget dignissim tellus. Nullam venenatis est sit amet eros gravida posuere. Maecenas pretium, justo et pellentesque laoreet, nisi arcu semper purus, eget auctor ipsum tellus eget leo. Sed pretium eu nisl ut molestie. Donec purus nulla, dapibus et libero eu, maximus vestibulum ipsum. Vivamus massa libero, lacinia non enim sed, suscipit aliquet nibh. Maecenas condimentum est vel orci commodo venenatis. Vestibulum congue efficitur augue sit amet porta. Pellentesque eu suscipit massa. Morbi porttitor cursus nulla, nec molestie nulla eleifend eu.
+
+            Phasellus elementum, justo eu fringilla vestibulum, quam ante sollicitudin ipsum, vel finibus sem lectus in eros. Nam eget purus nec dui tincidunt semper. Nunc sodales eu lacus in volutpat. Cras sed elit lectus. Nam tempus tortor a ipsum ultricies, vitae euismod eros interdum. Morbi scelerisque massa velit, viverra commodo velit scelerisque quis. Suspendisse in fringilla purus, vitae lacinia ex. Integer aliquam tellus non nisl finibus, in aliquet leo varius. Praesent viverra non nunc a dignissim. In hendrerit nunc et justo lacinia scelerisque. Ut est lectus, mattis ac orci ac, consectetur laoreet justo. Sed at lacinia lacus.
+            
+            Phasellus arcu odio, eleifend ut suscipit sed, luctus quis nunc. Donec quis lacinia dolor, eu commodo erat. Nullam porta magna et ligula lacinia, sed congue eros finibus. Cras a enim velit. Duis ligula metus, dapibus eu lorem id, egestas egestas dui. Quisque lacinia auctor orci vel tincidunt. In hac habitasse platea dictumst. Quisque sollicitudin lorem orci. Nunc euismod efficitur metus. Phasellus eleifend nunc id placerat fringilla. Nam convallis massa non enim elementum sagittis. Morbi vitae mi lorem. Fusce quis augue egestas, pulvinar arcu aliquet, viverra mauris. In quam augue, consectetur ac sem non, hendrerit varius eros. Quisque porta, ex nec ornare luctus, quam dui molestie tortor, eget aliquet est dui id nunc. Morbi vehicula ultrices ante non scelerisque.
+            
+            Curabitur consequat dictum ipsum, at gravida odio dapibus non. Phasellus sit amet tristique odio, sit amet aliquam nisi. Fusce purus risus, congue sed est in, bibendum placerat risus. Praesent a urna faucibus, convallis dolor non, vestibulum lorem. Curabitur elit ipsum, euismod a dui ut, luctus consequat enim. Nulla facilisi. Sed id malesuada quam. Nulla tempus elementum lectus eget aliquam. Vivamus ut dolor a massa vulputate placerat. Maecenas vehicula finibus velit et luctus.
+            
+            Praesent commodo tincidunt orci a laoreet. Nullam vel magna consequat nisi volutpat ornare ac ac elit. Vestibulum luctus laoreet erat, in malesuada erat sodales sit amet. Pellentesque sollicitudin, dolor vitae dignissim eleifend, urna nulla sodales enim, et bibendum felis libero vel tortor. Nam mauris ligula, fringilla sed eros sed, cursus blandit risus. Aenean mattis enim at malesuada semper. Aliquam lacinia, nisl in tincidunt ornare, sapien tortor elementum purus, consectetur interdum quam metus eget orci. Fusce efficitur quam nisi, quis condimentum lacus tempus tincidunt. Phasellus cursus urna vitae lacus laoreet dapibus. Sed venenatis orci non nibh suscipit, sit amet tincidunt eros pellentesque. Aliquam quis dictum orci, sed mollis neque. Nam in urna sit amet justo dapibus tincidunt. Etiam maximus auctor hendrerit. Nullam sollicitudin arcu non lectus auctor semper. Proin consectetur scelerisque lorem, quis aliquam libero convallis id. Pellentesque eu fermentum nunc.</div>
+    </div>
 
 </body>
 
