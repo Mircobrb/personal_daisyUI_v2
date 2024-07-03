@@ -10,7 +10,7 @@ youtube video https://www.youtube.com/watch?v=arftp8kFBBg&t=103s
 npm run dev
 
 # red border
-in input.css use this snippet to activate red
+in dist/output.css use this snippet to activate red
 
 * {
   border: 1px solid red;
