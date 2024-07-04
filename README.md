@@ -24,6 +24,8 @@ Navbar
   - links
 
 Page blocks
+  - fuckin vheight
+  - fix background svg fill that clips
 
 Icons
   - change all icons to flowbite icons
