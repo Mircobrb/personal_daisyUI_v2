@@ -24,6 +24,7 @@ Navbar
   - links
 
 Page blocks
+  - use gap instead of space
   - fuckin vheight
   - fix background svg fill that clips
 
