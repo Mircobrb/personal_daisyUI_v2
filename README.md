@@ -18,15 +18,3 @@ in dist/output.css use this snippet to activate red
 
 # IP address
 192.168.1.12
-
-# todo
-Navbar
-  - links
-
-Page blocks
-  - use gap instead of space
-  - fuckin vheight
-  - fix background svg fill that clips
-
-Icons
-  - change all icons to flowbite icons
