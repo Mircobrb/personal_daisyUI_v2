@@ -2499,6 +2499,45 @@ html {
   margin-bottom: 0;
 }
 
+.prose-neutral {
+  --tw-prose-body: #404040;
+  --tw-prose-headings: #171717;
+  --tw-prose-lead: #525252;
+  --tw-prose-links: #171717;
+  --tw-prose-bold: #171717;
+  --tw-prose-counters: #737373;
+  --tw-prose-bullets: #d4d4d4;
+  --tw-prose-hr: #e5e5e5;
+  --tw-prose-quotes: #171717;
+  --tw-prose-quote-borders: #e5e5e5;
+  --tw-prose-captions: #737373;
+  --tw-prose-kbd: #171717;
+  --tw-prose-kbd-shadows: 23 23 23;
+  --tw-prose-code: #171717;
+  --tw-prose-pre-code: #e5e5e5;
+  --tw-prose-pre-bg: #262626;
+  --tw-prose-th-borders: #d4d4d4;
+  --tw-prose-td-borders: #e5e5e5;
+  --tw-prose-invert-body: #d4d4d4;
+  --tw-prose-invert-headings: #fff;
+  --tw-prose-invert-lead: #a3a3a3;
+  --tw-prose-invert-links: #fff;
+  --tw-prose-invert-bold: #fff;
+  --tw-prose-invert-counters: #a3a3a3;
+  --tw-prose-invert-bullets: #525252;
+  --tw-prose-invert-hr: #404040;
+  --tw-prose-invert-quotes: #f5f5f5;
+  --tw-prose-invert-quote-borders: #404040;
+  --tw-prose-invert-captions: #a3a3a3;
+  --tw-prose-invert-kbd: #fff;
+  --tw-prose-invert-kbd-shadows: 255 255 255;
+  --tw-prose-invert-code: #fff;
+  --tw-prose-invert-pre-code: #d4d4d4;
+  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+  --tw-prose-invert-th-borders: #525252;
+  --tw-prose-invert-td-borders: #404040;
+}
+
 .badge {
   display: inline-flex;
   align-items: center;
@@ -3759,6 +3798,11 @@ html {
   z-index: 1;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -3799,16 +3843,8 @@ html {
   max-width: 24rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -3875,24 +3911,16 @@ html {
   background-color: rgb(153 246 228 / var(--tw-bg-opacity));
 }
 
-.fill-base-content {
-  fill: var(--fallback-bc,oklch(var(--bc)/1));
-}
-
 .fill-accent {
   fill: var(--fallback-a,oklch(var(--a)/1));
 }
 
-.fill-base-200 {
-  fill: var(--fallback-b2,oklch(var(--b2)/1));
-}
-
-.fill-base-300 {
-  fill: var(--fallback-b3,oklch(var(--b3)/1));
-}
-
 .fill-base-100 {
   fill: var(--fallback-b1,oklch(var(--b1)/1));
+}
+
+.fill-base-content {
+  fill: var(--fallback-bc,oklch(var(--bc)/1));
 }
 
 .stroke-base-content {
@@ -3901,10 +3929,6 @@ html {
 
 .stroke-2 {
   stroke-width: 2;
-}
-
-.stroke-1 {
-  stroke-width: 1;
 }
 
 .object-fill {
@@ -3916,12 +3940,9 @@ html {
   padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-6 {
@@ -3987,10 +4008,6 @@ html {
 
   .md\:gap-20 {
     gap: 5rem;
-  }
-
-  .md\:p-20 {
-    padding: 5rem;
   }
 }
 
