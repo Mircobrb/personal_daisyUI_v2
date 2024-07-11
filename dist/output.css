@@ -3847,6 +3847,10 @@ html {
   flex-direction: column;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .items-center {
   align-items: center;
 }
@@ -3940,9 +3944,8 @@ html {
   padding: 0.5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.p-4 {
+  padding: 1rem;
 }
 
 .py-10 {
@@ -4026,6 +4029,10 @@ html {
 
   .md\:gap-20 {
     gap: 5rem;
+  }
+
+  .md\:p-20 {
+    padding: 5rem;
   }
 }
 
