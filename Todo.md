@@ -9,7 +9,13 @@ Who am I block
 - [x] title
 - [x] description
 - [x] svg wave pattern
-- [ ] Update fonts, styles
+- [x] Update fonts, styles
+
+Agile mindset block
+- [ ] title
+- [ ] description
+- [ ] button
+- [ ] svg animations
 
 Lifelong learner block
 - [ ] title
