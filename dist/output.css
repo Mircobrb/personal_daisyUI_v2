@@ -2540,6 +2540,18 @@ html {
     --tw-text-opacity: 1;
     color: var(--fallback-nc,oklch(var(--nc)/var(--tw-text-opacity)));
   }
+
+  .table tr.hover:hover,
+  .table tr.hover:nth-child(even):hover {
+    --tw-bg-opacity: 1;
+    background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity)));
+  }
+
+  .table-zebra tr.hover:hover,
+  .table-zebra tr.hover:nth-child(even):hover {
+    --tw-bg-opacity: 1;
+    background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
+  }
 }
 
 .btn {
@@ -3759,8 +3771,16 @@ html {
   left: 0px;
 }
 
+.left-1 {
+  left: 0.25rem;
+}
+
 .left-1\/3 {
   left: 33.333333%;
+}
+
+.left-8 {
+  left: 2rem;
 }
 
 .right-0 {
@@ -3769,6 +3789,58 @@ html {
 
 .top-0 {
   top: 0px;
+}
+
+.top-6 {
+  top: 1.5rem;
+}
+
+.top-7 {
+  top: 1.75rem;
+}
+
+.bottom-1\/2 {
+  bottom: 50%;
+}
+
+.-bottom-0 {
+  bottom: -0px;
+}
+
+.-bottom-0\.5 {
+  bottom: -0.125rem;
+}
+
+.-bottom-1\/2 {
+  bottom: -50%;
+}
+
+.left-2\/4 {
+  left: 50%;
+}
+
+.top-1\/3 {
+  top: 33.333333%;
+}
+
+.left-auto {
+  left: auto;
+}
+
+.left-1\/4 {
+  left: 25%;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
+.top-1\/4 {
+  top: 25%;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .z-50 {
@@ -3787,12 +3859,20 @@ html {
   margin-top: 0.75rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-32 {
@@ -3811,8 +3891,8 @@ html {
   height: 100svh;
 }
 
-.h-36 {
-  height: 9rem;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-32 {
@@ -3827,56 +3907,80 @@ html {
   width: 1.5rem;
 }
 
-.w-3 {
-  width: 0.75rem;
+.w-full {
+  width: 100%;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-20 {
+  width: 5rem;
 }
 
 .w-36 {
   width: 9rem;
 }
 
-.max-w-60 {
-  max-width: 15rem;
+.max-w-4xl {
+  max-width: 56rem;
 }
 
-.max-w-\[65ch\] {
-  max-width: 65ch;
+.max-w-60 {
+  max-width: 15rem;
 }
 
 .max-w-sm {
   max-width: 24rem;
 }
 
-.max-w-96 {
-  max-width: 24rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
-}
-
-.max-w-4xl {
-  max-width: 56rem;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
 
-.flex-row {
-  flex-direction: row;
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+.animate-bounce {
+  animation: bounce var(--tw-animate-duration, 1s) var(--tw-animate-easing, ease) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, infinite) var(--tw-animate-fill, none);
+}
+
+@keyframes wiggle-more {
+  0%, 100% {
+    transform: rotate(-12deg);
+  }
+
+  50% {
+    transform: rotate(12deg);
+  }
+}
+
+.animate-wiggle-more {
+  animation: wiggle-more var(--tw-animate-duration, 1s) var(--tw-animate-easing, ease) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, 1) var(--tw-animate-fill, both);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin var(--tw-animate-duration, 1s) var(--tw-animate-easing, linear) var(--tw-animate-delay, 0s) var(--tw-animate-iteration, infinite) var(--tw-animate-fill, none);
 }
 
 .flex-col {
   flex-direction: column;
-}
-
-.content-between {
-  align-content: space-between;
 }
 
 .items-center {
@@ -3891,12 +3995,12 @@ html {
   justify-content: space-between;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
 .gap-10 {
   gap: 2.5rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-4 {
@@ -3905,10 +4009,6 @@ html {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -3968,6 +4068,14 @@ html {
   background-color: rgb(153 246 228 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(assets\/svgBackground\.svg\)\] {
+  background-image: url(assets/svgBackground.svg);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
 .fill-accent {
   fill: var(--fallback-a,oklch(var(--a)/1));
 }
@@ -4011,18 +4119,22 @@ html {
   padding-bottom: 2.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-top {
+  vertical-align: top;
 }
 
 .align-middle {
@@ -4072,21 +4184,76 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.animate-alternate {
+  --tw-animate-direction: alternate;
+  animation-direction: var(--tw-animate-direction);
+}
+
+.animate-alternate-reverse {
+  --tw-animate-direction: alternate-reverse;
+  animation-direction: var(--tw-animate-direction);
+}
+
+.animate-duration-\[2000ms\] {
+  --tw-animate-duration: 2000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[3000ms\] {
+  --tw-animate-duration: 3000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[4000ms\] {
+  --tw-animate-duration: 4000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-fill-forwards {
+  --tw-animate-fill: forwards;
+  animation-fill-mode: var(--tw-animate-fill);
+}
+
+.animate-once {
+  --tw-animate-iteration: 1;
+  animation-iteration-count: var(--tw-animate-iteration);
+}
+
+.animate-thrice {
+  --tw-animate-iteration: 3;
+  animation-iteration-count: var(--tw-animate-iteration);
+}
+
+.animate-ease-in {
+  --tw-animate-easing: cubic-bezier(0.4, 0, 1, 1);
+  animation-timing-function: var(--tw-animate-easing);
+}
+
+.animate-ease-in-out {
+  --tw-animate-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: var(--tw-animate-easing);
+}
+
 /* * {
     border: 1px solid red;
  } */
 
+.hover\:animate-duration-\[2000ms\]:hover {
+  --tw-animate-duration: 2000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.hover\:animate-duration-\[1000ms\]:hover {
+  --tw-animate-duration: 1000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.hover\:animate-duration-\[1500ms\]:hover {
+  --tw-animate-duration: 1500ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
 @media (min-width: 768px) {
-  .mockup-phone .md\:display {
-    overflow: hidden;
-    border-radius: 40px;
-    margin-top: -25px;
-  }
-
-  .md\:visible {
-    visibility: visible;
-  }
-
   .md\:flex {
     display: flex;
   }

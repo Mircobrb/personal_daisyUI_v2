@@ -38,8 +38,13 @@ module.exports = {
     ],
   },
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+      },
+      keyframes: {
+      }
+    },
   },
-  plugins: [require("@tailwindcss/typography"),require("daisyui")],
+  plugins: [require("@tailwindcss/typography"),require("daisyui"),require('tailwindcss-animated')],
 }
 
