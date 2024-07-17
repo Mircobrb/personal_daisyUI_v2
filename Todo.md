@@ -22,6 +22,8 @@ Lifelong learner block
 - [ ] description
 - [ ] button
 - [ ] svg animations
+- [ ] fix badges and grid
+- [ ] fix responsive
 
 Icons
 - [ ] change all icons to flowbite icons
