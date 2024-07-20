@@ -16,12 +16,18 @@ Agile mindset block
 - [x] svg animation
 - [x] svg variants, sub titles
 - [ ] fix copy
+- [ ] fix responsive (use grid, delete useless divs, copy lifelong learner block.)
+        - (you probably dont need an extra div, just a grid div centered with max width)
 
 Lifelong learner block
-- [ ] title
-- [ ] description
-- [ ] button
-- [ ] svg animations
+- [x] title
+- [x] description
+- [x] button
+- [x] svg animations
+- [x] fix badges and grid
+- [ ] fix responsive
+- [ ] fix copy
+- [ ] fix scrolling
 
 Icons
 - [ ] change all icons to flowbite icons
