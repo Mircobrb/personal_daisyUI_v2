@@ -40,8 +40,19 @@ module.exports = {
   theme: {
     extend: {
       animation: {
+        "loop-scroll-left": "loop-scroll-left 5s linear infinite",
+        "loop-scroll-right": "loop-scroll-right 20s linear infinite"
       },
       keyframes: {
+        "loop-scroll-left": {
+          "0%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(-20%)" },
+          "100%": { transform: "translateX(20%)" }
+        },
+        "loop-scroll-right": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(50%)" }
+        },
       }
     },
   },
