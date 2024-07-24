@@ -9,6 +9,7 @@ Hero block
 - [ ] fix background svg fill that clips
 - [ ] background animation on scroll
 - [ ] fix center div (use hero from daisyui)
+- [ ] fix img-h that overflows if very small vheight
 
 Who am I block
 - [ ] fix padding
