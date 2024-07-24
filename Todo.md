@@ -33,10 +33,11 @@ Lifelong learner block
 - [ ] fix padding alignment with other blocks
 
 Friends block
-- [] title
-- [] description
-- [] cards
-- [] animations
+- [x] title
+- [x] description
+- [x] cards
+- [x] animations
+- [] copy and images
 
 
 
