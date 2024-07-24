@@ -1,13 +1,17 @@
 # Todo
 
-Page blocks
+Fonts
+- [] apply tailwind classes to fonts
+
+Hero block
 - [x] use gap instead of space
 - [x] fuckin vheight
-- [] fix background svg fill that clips
+- [ ] fix background svg fill that clips
 - [ ] background animation on scroll
+- [ ] fix center div (use hero from daisyui)
 
 Who am I block
-
+- [ ] fix padding
 
 Agile mindset block
 - [x] title
@@ -16,6 +20,7 @@ Agile mindset block
 - [x] svg animation
 - [x] svg variants, sub titles
 - [ ] fix copy
+- [ ] fix padding alignment with other blocks
 
 Lifelong learner block
 - [x] title
@@ -25,7 +30,7 @@ Lifelong learner block
 - [x] fix badges and grid
 - [x] fix responsive
 - [ ] fix copy
-- [ ] fix scrolling
+- [ ] fix padding alignment with other blocks
 
 Friends block
 - [] title
