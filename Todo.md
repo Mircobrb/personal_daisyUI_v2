@@ -39,6 +39,7 @@ Friends block
 - [x] cards
 - [x] animations
 - [] copy and images
+- [] add icon that shows elements are clickable
 
 
 
