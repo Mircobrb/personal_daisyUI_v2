@@ -4,7 +4,7 @@ Fonts
 - [] apply tailwind classes to fonts
 
 Icons
-- [ ] change all icons to flowbite filled icons
+- [x] change all icons to flowbite filled icons
 
 Hero block
 - [x] use gap instead of space
@@ -35,6 +35,7 @@ Lifelong learner block
 - [x] fix responsive
 - [ ] fix copy
 - [ ] fix padding alignment with other blocks
+- [ ] fix badge responsive
 
 Friends block
 - [x] title
