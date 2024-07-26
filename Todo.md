@@ -6,7 +6,7 @@ Fonts
 Hero block
 - [x] use gap instead of space
 - [x] fuckin vheight
-- [ ] fix background svg fill that clips
+- [ ] fix background svg fill that clips (use aspect ratio on svg bg)
 - [ ] background animation on scroll
 - [ ] fix center div (use hero from daisyui)
 - [ ] fix img-h that overflows if very small vheight
