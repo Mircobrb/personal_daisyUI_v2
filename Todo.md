@@ -3,13 +3,16 @@
 Fonts
 - [] apply tailwind classes to fonts
 
+Icons
+- [ ] change all icons to flowbite filled icons
+
 Hero block
 - [x] use gap instead of space
 - [x] fuckin vheight
-- [ ] fix background svg fill that clips (use aspect ratio on svg bg)
+- [x] fix background svg fill that clips (use aspect ratio on svg bg)
 - [ ] background animation on scroll
-- [ ] fix center div (use hero from daisyui)
-- [ ] fix img-h that overflows if very small vheight
+- [x] fix center div (use hero from daisyui)
+- [x] fix img-h that overflows if very small vheight
 
 Who am I block
 - [ ] fix padding
@@ -40,8 +43,3 @@ Friends block
 - [x] animations
 - [] copy and images
 - [] add icon that shows elements are clickable
-
-
-
-Icons
-- [ ] change all icons to flowbite icons
