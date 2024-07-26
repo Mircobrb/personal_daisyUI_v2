@@ -15,7 +15,7 @@ Hero block
 - [x] fix img-h that overflows if very small vheight
 
 Who am I block
-- [ ] fix padding
+- [x] fix padding
 
 Agile mindset block
 - [x] title
@@ -24,7 +24,7 @@ Agile mindset block
 - [x] svg animation
 - [x] svg variants, sub titles
 - [ ] fix copy
-- [ ] fix padding alignment with other blocks
+- [x] fix padding alignment with other blocks
 
 Lifelong learner block
 - [x] title
@@ -34,7 +34,7 @@ Lifelong learner block
 - [x] fix badges and grid
 - [x] fix responsive
 - [ ] fix copy
-- [ ] fix padding alignment with other blocks
+- [x] fix padding alignment with other blocks
 - [ ] fix badge responsive
 
 Friends block
