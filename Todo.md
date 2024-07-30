@@ -1,7 +1,7 @@
 # Todo
 
-Fonts
-- [] apply tailwind classes to fonts
+Mobile
+- [] fix font size and elements dimension for mobile
 
 Icons
 - [x] change all icons to flowbite filled icons
