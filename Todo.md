@@ -3,14 +3,11 @@
 Mobile
 - [] fix font size and elements dimension for mobile
 
-Icons
-- [x] change all icons to flowbite filled icons
-
 Hero block
 - [x] use gap instead of space
 - [x] fuckin vheight
 - [x] fix background svg fill that clips (use aspect ratio on svg bg)
-- [ ] background animation on scroll
+- [ ] change bg (fix it also for mobile that doesnt overlaps)
 - [x] fix center div (use hero from daisyui)
 - [x] fix img-h that overflows if very small vheight
 
@@ -44,3 +41,6 @@ Friends block
 - [x] animations
 - [] copy and images
 - [] add icon that shows elements are clickable
+
+Footer
+- [] fix img size and type
