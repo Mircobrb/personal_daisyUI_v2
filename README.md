@@ -18,3 +18,6 @@ in dist/output.css use this snippet to activate red
 
 # IP address
 192.168.1.12
+
+# icons
+flowbite filled https://flowbite.com/icons/

@@ -1,47 +1,39 @@
 # Todo
 
-Fonts
-- [] apply tailwind classes to fonts
+Mobile
+- [] fix font size and elements dimension for mobile
+
+# MAIN PAGE
 
 Hero block
-- [x] use gap instead of space
-- [x] fuckin vheight
-- [ ] fix background svg fill that clips
-- [ ] background animation on scroll
-- [ ] fix center div (use hero from daisyui)
-- [ ] fix img-h that overflows if very small vheight
+- [x] 
 
 Who am I block
-- [ ] fix padding
+- [x] 
 
 Agile mindset block
-- [x] title
-- [x] description
-- [x] button
-- [x] svg animation
-- [x] svg variants, sub titles
-- [ ] fix copy
-- [ ] fix padding alignment with other blocks
+
 
 Lifelong learner block
-- [x] title
-- [x] description
-- [x] button
-- [x] svg animations
-- [x] fix badges and grid
-- [x] fix responsive
-- [ ] fix copy
-- [ ] fix padding alignment with other blocks
+- [x] 
 
 Friends block
-- [x] title
-- [x] description
-- [x] cards
-- [x] animations
-- [] copy and images
-- [] add icon that shows elements are clickable
+- [x] 
 
+Footer
+- [] fix img size and type
+- [] add made with passion text
 
+# EXPERIENCE PAGE
 
-Icons
-- [ ] change all icons to flowbite icons
+- [ ] card element
+- [ ] modal
+
+# PROJECTS PAGE
+
+- [ ] card element
+- [ ] modal
+
+# SAY HELLO
+
+- [ ] contact
