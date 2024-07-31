@@ -20,7 +20,7 @@ Agile mindset block
 - [x] button
 - [x] svg animation
 - [x] svg variants, sub titles
-- [ ] fix copy
+- [x] fix copy
 - [x] fix padding alignment with other blocks
 
 Lifelong learner block
@@ -30,16 +30,16 @@ Lifelong learner block
 - [x] svg animations
 - [x] fix badges and grid
 - [x] fix responsive
-- [ ] fix copy
+- [x] fix copy
 - [x] fix padding alignment with other blocks
-- [ ] fix badge responsive
+- [x] fix badge responsive
 
 Friends block
 - [x] title
 - [x] description
 - [x] cards
 - [x] animations
-- [] copy and images
+- [x] copy and images
 - [] add icon that shows elements are clickable
 
 Footer
