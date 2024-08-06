@@ -21,7 +21,7 @@ Friends block
 - [x] 
 
 Footer
-- [] fix img size and type
+- [] fix img size, type, mask
 - [] add made with passion text
 
 # EXPERIENCE PAGE
