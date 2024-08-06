@@ -115,13 +115,15 @@
                             <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
                         </svg>
                     </a>
-                    <button class="btn btn-circle" onclick="writeClipboardText(https://mircobarbero.netlify.app/)">
-                        <svg class="w-6 h-6 fill-base-content" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                            width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                            <path
-                                d="M17.5 3a3.5 3.5 0 0 0-3.456 4.06L8.143 9.704a3.5 3.5 0 1 0-.01 4.6l5.91 2.65a3.5 3.5 0 1 0 .863-1.805l-5.94-2.662a3.53 3.53 0 0 0 .002-.961l5.948-2.667A3.5 3.5 0 1 0 17.5 3Z" />
-                        </svg>
-                    </button>
+                    <div id="copyTooltip" class="tooltip" data-tip="Copy link">
+                            <button class="btn btn-circle" onclick="copyContent()" onmouseleave="outFunc()">
+                                <svg class="w-6 h-6 fill-base-content" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M17.5 3a3.5 3.5 0 0 0-3.456 4.06L8.143 9.704a3.5 3.5 0 1 0-.01 4.6l5.91 2.65a3.5 3.5 0 1 0 .863-1.805l-5.94-2.662a3.53 3.53 0 0 0 .002-.961l5.948-2.667A3.5 3.5 0 1 0 17.5 3Z" />
+                                </svg>
+                            </button>
+                    </div>
                 </div>
             </div>  
         </section>
