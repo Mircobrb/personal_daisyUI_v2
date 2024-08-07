@@ -26,8 +26,8 @@ Footer
 
 # EXPERIENCE PAGE
 
-- [ ] card element
-- [ ] modal
+- [x] card element
+- [ ] add copy to modals
 
 # PROJECTS PAGE
 
