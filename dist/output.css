@@ -4829,6 +4829,11 @@ html {
   background-color: rgb(94 234 212 / var(--tw-bg-opacity));
 }
 
+.bg-cyan-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(103 232 249 / var(--tw-bg-opacity));
+}
+
 .bg-center {
   background-position: center;
 }

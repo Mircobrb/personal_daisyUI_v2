@@ -5,20 +5,7 @@ Mobile
 
 # MAIN PAGE
 
-Hero block
-- [x] 
-
-Who am I block
-- [x] 
-
-Agile mindset block
-
-
-Lifelong learner block
-- [x] 
-
-Friends block
-- [x] 
+- [ ] fix assets folders
 
 Footer
 - [] fix img size, type, mask
