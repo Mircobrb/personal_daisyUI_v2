@@ -2,6 +2,7 @@
 
 Mobile
 - [] fix font size and elements dimension for mobile
+- [ ] separate navigation button from MircoBarbero button
 
 # MAIN PAGE
 
@@ -9,12 +10,14 @@ Mobile
 
 Footer
 - [] fix img size, type, mask
-- [] add made with passion text
+- [x] add made with passion text
 
 # EXPERIENCE PAGE
 
 - [x] card element
 - [ ] add copy to modals
+- [ ] fix font size for title and texts
+- [ ] fix layout without too many flexbox items
 
 # PROJECTS PAGE
 
