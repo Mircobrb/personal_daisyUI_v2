@@ -16,6 +16,8 @@ Footer
 
 - [x] card element
 - [ ] add copy to modals
+    - [ ] add description of companies (cerved group nr1 data provider in italy)
+    - [ ] add date of experience
 - [ ] fix font size for title and texts
 - [ ] fix layout without too many flexbox items
 
@@ -23,6 +25,10 @@ Footer
 
 - [ ] card element
 - [ ] modal
+- [ ] daisyui contribution
+- [ ] thinkertoys website
+- [ ] surfboard shaping
+- [ ] this website
 
 # SAY HELLO
 
