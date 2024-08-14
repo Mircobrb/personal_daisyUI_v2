@@ -1,16 +1,16 @@
 # Todo
 
 Mobile
-- [] fix font size and elements dimension for mobile
+- [ ] fix font size and elements dimension for mobile
 - [ ] separate navigation button from MircoBarbero button
 
 # MAIN PAGE
 
 - [ ] fix assets folders
+- [ ] add download cv button
 
 Footer
-- [] fix img size, type, mask
-- [x] add made with passion text
+- [ ] fix img size, type, mask
 
 # EXPERIENCE PAGE
 
