@@ -1,4 +1,11 @@
-# Todo
+# EXPERIENCE PAGE
+- [ ] add copy to modals
+    - [ ] add description of companies (cerved group nr1 data provider in italy)
+    - [ ] add date of experience
+- [ ] fix font size for title and texts
+- [ ] fix layout without too many flexbox items
+
+# Mobile
 
 Mobile
 - [ ] fix font size and elements dimension for mobile
@@ -12,14 +19,7 @@ Mobile
 Footer
 - [ ] fix img size, type, mask
 
-# EXPERIENCE PAGE
 
-- [x] card element
-- [ ] add copy to modals
-    - [ ] add description of companies (cerved group nr1 data provider in italy)
-    - [ ] add date of experience
-- [ ] fix font size for title and texts
-- [ ] fix layout without too many flexbox items
 
 # PROJECTS PAGE
 
