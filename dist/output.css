@@ -4832,6 +4832,14 @@ html {
   border-radius: 0px;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .rounded-t-2xl {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -5524,6 +5532,10 @@ html {
 
   .md\:rounded-2xl {
     border-radius: 1rem;
+  }
+
+  .md\:rounded-full {
+    border-radius: 9999px;
   }
 }
 

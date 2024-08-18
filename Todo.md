@@ -9,17 +9,13 @@
 
 Mobile
 - [ ] fix font size and elements dimension for mobile
-- [ ] separate navigation button from MircoBarbero button
 
 # MAIN PAGE
 
 - [ ] fix assets folders
+- [ ] add link to github button
 - [ ] add download cv button
-
-Footer
-- [ ] fix img size, type, mask
-
-
+- [ ] update friends section (make them full color on mobile)
 
 # PROJECTS PAGE
 
