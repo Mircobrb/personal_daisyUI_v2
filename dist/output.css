@@ -5510,6 +5510,10 @@ html {
     max-height: calc(100vh - 5em);
   }
 
+  .md\:max-h-40 {
+    max-height: 10rem;
+  }
+
   .md\:w-11\/12 {
     width: 91.666667%;
   }
@@ -5536,6 +5540,11 @@ html {
 
   .md\:rounded-full {
     border-radius: 9999px;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
