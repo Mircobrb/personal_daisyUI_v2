@@ -2,7 +2,7 @@
 - [ ] add copy to modals
     - [ ] add description of companies (cerved group nr1 data provider in italy)
     - [ ] add date of experience
-- [ ] fix font size for title and texts
+- [ ] fix font size for header modal title and subtitle
 - [ ] fix layout without too many flexbox items
 
 # Mobile
