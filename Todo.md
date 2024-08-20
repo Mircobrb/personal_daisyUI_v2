@@ -9,7 +9,6 @@
 
 Mobile
 - [ ] fix font size and elements dimension for mobile
-- [x] fix img and title of main page to show more aligned
 
 # MAIN PAGE
 
