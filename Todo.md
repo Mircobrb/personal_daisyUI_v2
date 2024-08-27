@@ -1,9 +1,15 @@
 # EXPERIENCE PAGE
-- [ ] add copy to modals
-    - [ ] add description of companies (cerved group nr1 data provider in italy)
-    - [ ] add date of experience
+- [ ] add flow img
+- [ ] remove dates from images
+- [ ] write backlog section
+
+
+- [ ] add description of companies (cerved group nr1 data provider in italy)
+- [ ] add date of experience
 - [ ] fix font size for header modal title and subtitle
 - [ ] fix layout without too many flexbox items
+- [ ] enlarge img on click
+
 
 # Mobile
 
