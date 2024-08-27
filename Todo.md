@@ -1,7 +1,4 @@
 # EXPERIENCE PAGE
-- [ ] add flow img
-- [ ] remove dates from images
-- [ ] write backlog section
 
 
 - [ ] add description of companies (cerved group nr1 data provider in italy)
