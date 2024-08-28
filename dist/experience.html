@@ -25,7 +25,7 @@
                     </svg>
                     Mirco Barbero
                 </button>
-                <ul class="menu menu-lg dropdown-content rounded-box bg-base-100 z-[1] mt-3 w-52 p-2 shadow">
+                <ul class="menu menu-lg dropdown-content rounded-box bg-base-100 z-[1] mt-3 w-52 p-2 shadow-xl">
                     <li><a href="index.html">Who am I</a></li>
                     <li><a class="active" href="experience.html">Experience</a></li>
                     <li><a href="projects.html">Projects</a></li>
@@ -42,7 +42,7 @@
         <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal menu-lg rounded-box">
                 <li><a href="index.html">Who am I</a></li>
-                <li><a class="active" href="experience.html">Experience</a></li>
+                <li><a class="underline" href="experience.html">Experience</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li class="indicator"><a href="writings.html">Writings <span
                             class="badge badge-sm badge-warning indicator-item">Out
@@ -74,92 +74,1273 @@
 
     <!--Main content-->
 
-    <!--Experience-->
-    <section class="flex flex-col p-4 gap-10 max-w-screen-md mx-auto">
+    <!--Experience list-->
+    <section class="flex flex-col p-4 gap-10 max-w-screen-md mx-auto my-6">
         <div class="flex flex-col gap-6">
             <div class="flex flex-col gap-2">
-                <h3 class="font-semibold text-2xl font-sans">My experience</h3>
+                <h1 class="font-semibold text-3xl font-sans">
+                    My experience
+                </h1>
                 <p class="text-lg leading-relaxed">
-                    These are some of the roles I've covered</p>
+                    These are some of the roles I've covered
+                </p>
             </div>
-            <div class=" gap-6 p-1 grid grid-cols-1 md:grid-cols-2 md:gap-4">
+
+            <!--Grid element-->
+            <div class="gap-6 grid grid-cols-1 md:grid-cols-2 md:gap-4">
+
+                <!--Cards, You can open the modal using ID.showModal() method -->
                 
-                <a href="https://www.linkedin.com/in/nikolas-kotopulis-ostinelli-48b757145/" target="_blank" rel="noreferrer noopener" class="card card-compact bg-base-100 basis-60 shrink-0 md:h-96 outline outline-base-300 outline-2 group hover:bg-base-200">
-                    <figure class="basis-full relative">
-                        <button class="hidden btn btn-circle btn-ghost group-hover:inline-flex absolute top-2 right-2 z-10">
-                            <svg class="w-6 h-6 fill-neutral-content aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path fill-rule="evenodd" d="M11.403 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.403a3.01 3.01 0 0 1-1.743-1.612l-3.025 3.025A3 3 0 1 1 9.99 9.768l3.025-3.025A3.01 3.01 0 0 1 11.403 5Z" clip-rule="evenodd"/>
-                                <path fill-rule="evenodd" d="M13.232 4a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1v5.768a1 1 0 1 1-2 0V6.414l-6.182 6.182a1 1 0 0 1-1.414-1.414L17.586 5h-3.354a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
-                            </svg>
-                        </button>
-                        <img class="grayscale group-hover:grayscale-0 object-cover h-full w-full"
-                            src="assets/cptnko.jpg"
+                <!--Cerved-->
+                <!-- //SECTION -  cerved -->
+                <div class="card h-80 bg-base-100 basis-60 shrink-0 cursor-pointer hover:bg-base-300" onclick="modal_cerved.showModal()">
+                    <figure class="basis-full px-4 pt-4">
+                        <img class="object-top object-cover w-full h-full rounded-lg border-2 border-base-300"
+                            src="assets/experiences/cerved/cervedGroupCover.png"
                             alt="Name" />
                     </figure>
-                    <div class="card-body basis-1/3">
-                        <h2 class="card-title text-ellipsis">Nikolas Kotopulis Ostinelli</h2>
-                        <p>Systems Engineer</p>
+                    <div class="card-body pt-4 basis-1/3">
+                        <h2 class="card-title">User Experience designer</h2>
+                        <p>Cerved Group</p>
+                    </div> 
+                </div>
+                <!--Cerved modal-->
+                <dialog id="modal_cerved" class="modal">
+                    <div class="modal-box w-full max-h-full rounded-none md:max-h-[calc(100vh-5em)] md:w-11/12 max-w-5xl md:rounded-2xl p-0">
+                        <!--Header modal-->
+                        <div class="shadow p-6 bg-base-100 border-b border-base-200 sticky top-0 left-0 z-50">
+                            <form method="dialog">
+                                <button class="btn btn-circle btn-ghost absolute right-6 top-6">
+                                <svg class="w-6 h-6 fill-base-content" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                                </svg>
+                                </button>
+                            </form>
+                            <h3 class="text-xl font-semibold">
+                                User Experience designer
+                            </h3>
+                            
+                            <a class="text-lg link inline-flex items-center" href="https://www.cerved.com/en/">
+                            Cerved Group
+                                <svg class="w-4 h-4 fill-base-content ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                    d="M11.403 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.403a3.01 3.01 0 0 1-1.743-1.612l-3.025 3.025A3 3 0 1 1 9.99 9.768l3.025-3.025A3.01 3.01 0 0 1 11.403 5Z"
+                                    clip-rule="evenodd" />
+                                <path fill-rule="evenodd"
+                                    d="M13.232 4a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1v5.768a1 1 0 1 1-2 0V6.414l-6.182 6.182a1 1 0 0 1-1.414-1.414L17.586 5h-3.354a1 1 0 0 1-1-1Z"
+                                    clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            
+                        </div>
+                        <!--Content modal-->
+                        <section class="bg-base-200">
+                            <div class="bg-teal-300 h-60 flex justify-center align-bottom">
+                                <img 
+                                class="object-top bg-center h-full"
+                                src="assets/experiences/cerved/cervedGroupCover.png" alt="">
+                            </div>
+                            <article class="mt-8 prose prose-slate mx-auto px-4 lg:prose-lg">                            
+                                
+                                <!--Short intro and maybe a recap with main points-->
+                                <p class="lead">
+                                    As a User Experience Designer at Cerved Group I worked on the design and development of digital products for corporate clients in the financial and banking industries.
+                                    <br>
+                                    Moreover I was part of the team that planned, designed and executed the release of the Cerved Design System.
+                                </p>
+
+
+                                <!--Project 1-->
+                                <section>
+                                    <h2>Cerved platforms</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Figma</div>
+                                        <div class="badge badge-neutral">Data visualization</div>
+                                        <div class="badge badge-neutral">User feedbacks</div>
+                                        <div class="badge badge-neutral">Charting libraries</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>I started my work at Cerved as a designer focusing on the improvement of the main products of Cerved Group, in
+                                        particular the <a href="https://marketintelligence.cerved.com/">Marketing Intelligence</a> platform and <a href="https://www.cerved.com/risk-intelligence/rischio-di-credito/business-information/cerved-credit-suite/">Cerved Credit Suite</a>.
+                                        <br>
+                                        <br>
+                                        Both products provide data and information about companies, markets, credit risk and
+                                        financial analysis.
+                                        <br>
+                                        They are used by thousands of customers in Europe such as Accenture, PWC, Trenitalia and Poste italiane.
+                                    
+                                        <br>
+                                        <br>
+                                        My contribution to these platforms was gathering customer feedbacks about the <underline>data visualization</underline> in order to define new and more
+                                        accurate charts and indicators to represent the data.
+
+                                        <!--Images-->
+                                        <figure>
+                                            <img src="assets/experiences/cerved/marketIntelligenceCharts.png" alt="" />
+                                            <!-- <figcaption>The Market intelligence platform</figcaption> -->
+                                        </figure>
+
+                                        <br>
+                                        The goal of these activities was improving usability and readability of the data shown while simplifying the information retrieval for the end user.
+                                    </p>
+                                    
+                                    <!--Images-->
+                                    <figure>
+                                    <img src="assets/experiences/cerved/market intelligence.png" alt="" />
+                                    <figcaption>The Market intelligence platform</figcaption>
+                                    </figure>
+                                    
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="https://www.cerved.com/en/marketing-intelligence/market-intelligence/">market intelligence</a>.</p> -->
+                                </section>
+                                
+                                <hr />
+
+                                <!--Project 2-->
+                                <section>
+                                    <h2>From Sketch to Figma</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Sketch</div>
+                                        <div class="badge badge-neutral">Figma</div>
+                                        <div class="badge badge-neutral">Video courses</div>
+                                    </div>
+                                    
+                                    <!--Images-->
+                                    <figure>
+                                    <img src="assets/experiences/cerved/sketch to figma.png" alt="" />
+                                    <!-- <figcaption>Description</figcaption> -->
+                                    </figure>
+
+                                    <blockquote>
+                                        <p>Isn't there a simpler tool to do this?</p>
+                                        </blockquote>
+                                        <i>- Too many designers</i>
+
+                                    <!--Description-->
+                                    <p>Since the design team had been using <code>Sketch</code> as their main design tool and there were many issues with it, I proposed to move our projects and
+                                        operations to <code>Figma</code> in order to improve the efficiency and features available to all designers.
+                                        <br>
+                                        <br>
+                                        In order to achieve that I researched and planned a transition with the different project teams. I supported their
+                                        organization and the rework needed in terms of files, resources, components and libraries to be moved onto the new tool.
+                                        <br>
+                                        <br>
+                                        After the initial phase of transition I supported the entire design team through publishing learning resources on
+                                        best practices on how to utilize Figma, in the form of video pills, courses and template resources.
+                                        <br>
+
+                                        <!--//TODO - Picture of one of my video pills-->
+                                        <!--Images-->
+                                        <figure>
+                                            <img src="" alt="" />
+                                            <!-- <figcaption>The Market intelligence platform</figcaption> -->
+                                        </figure>
+
+                                        The entire process took about two months and the increase of speed and efficiency with which the design team could
+                                        produce new assets was tangible, making the transition worthwhile.
+                                    </p>
+                                </section>
+                                
+
+                                <hr />
+                                
+
+                                <!--Project 3-->
+                                <section>
+                                    <h2>B2B corporate clients</h2>
+                                    
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">User interviews</div>
+                                        <div class="badge badge-neutral">Service blueprints</div>
+                                        <div class="badge badge-neutral">Prototypes</div>
+                                        <div class="badge badge-neutral">User stories</div>
+                                        <div class="badge badge-neutral">Usability tests</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>My main activity as a UX designer has been through the design and development of several digital products for corporate clients such as <a href="https://bnl.it/it/">BNL</a>, <a href="https://www.bancodesio.it/it">Banco Desio</a> .
+                                        <br>
+                                        For each project I was part of a <code>Scrum</code> team composed by developers, data scientists, Product owner and Scrum master. 
+                                        <br>
+                                        <br>
+
+                                        My role was evenly distributed throughout all the different phases of the projects.
+                                        Starting from the business evaluation of the client requests, I would assist the product owner and business analysts in defining the requisites of the proposed solution.
+                                        <br>
+                                        In this phase I would perform customer and <code>user interviews</code> to gather insights and explore alternative solutions to propose to the board of stakeholders, leading workshops and meetings.
+                                        <br>
+                                        <br>
+                                        
+                                        In the second phase I was tasked with designing <code>user journeys</code>, personas and <code>service blueprints</code>, in order to define a preliminary version of the product offered to the client.
+                                        <br>
+                                        In this phase I would also combine different requirements from developers and data scientists, regarding technologies implemented and variations to the client requirements.
+                                        <br>
+                                        After this I would create mock-ups and <code>prototypes</code> with Figma that represented the actual front-end flows the user would interact with.
+                                        Also at this stage I would assist the Product Owner in defining <code>user stories</code> and managing the product backlog in Jira.
+                                        I would also follow the development process through each sprint and gather user feedbacks with <code>usability tests</code> and analysing user interactions.
+                                    
+                                    </p>
+
+                                    <!--Images-->
+                                    <figure> <!--//TODO picture of some projects, finbox or other-->
+                                    <video autoplay loop muted playsinline src="assets/experiences/cerved/DigitalCreditBancoDesioGif.mp4"></video>
+                                    <figcaption>Banco Desio Digital Credit, a digital lending platform for small businesses</figcaption>
+                                    </figure>
+
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="#">Lorem</a>.</p> -->
+                                </section>
+                                
+                                
+                        
+                                <hr />
+
+                                <!--Project 4-->
+                                <section>
+                                    <h2>Cerved design system</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Design Systems</div>
+                                        <div class="badge badge-neutral">Design tokens</div>
+                                        <div class="badge badge-neutral">UI components</div>
+                                        <div class="badge badge-neutral">Storybook</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>One of the biggest projects I was involved in was the development of the internal design system, following the
+                                        transition to Figma tokens.
+                                        <br>
+                                        <br>
+                                        I was part of the design team tasked with the organization, design and maintenance of the <code>Design System</code>
+                                        utilized by all the Product teams in Cerved to develop new products.
+                                        <br>
+                                        This project has been a direct collaboration with the development team, and involved more than twenty people.
+                                        <br>
+                                        <br>
+                                        The first step was clustering all the foundational elements of the company, such as: color styles, typography, UI
+                                        elements, front-end frameworks and technologies utilised by all the different teams.
+                                        <br>
+                                        <br>
+                                        Subsequentially, we defined a common ground of practices and values that were shared between the various product teams.
+                                        From there we planned a roadmap for the design and development of the various assets and foundations of the new design system.
+                                        <br>
+
+                                        We decided to structure the organization of the work with two teams, one composed by designers and one by developers. This in order to separate the activities of design and development and speed up the internal processes.
+                                        <br>
+
+                                        Each team would have a separate Backlog of activities, enabling designers to produce the assets that would drive the development of the actual components of the design system.
+                                        <br>
+
+                                        <figure>
+                                            <img src="assets/experiences/cerved/designSystemFlow.png" alt="" />
+                                            <!-- <figcaption>Description</figcaption> -->
+                                        </figure>
+                                        
+                                        Communication was kept daily between the teams, with a minimum of one review per week of the work done and the planning of following activities.
+                                        <br>
+                                        <br>
+                                        Every two weeks we held a more structured review with all different product teams of the company (roughly 100 people) where we would preview the progress of the project, release assets completed and gather feedbacks. 
+
+                                        <br>
+                                        <br>
+
+                                        As a starting point for the structure of the code we utilised the <a href="https://mui.com/material-ui/all-components/">Material UI</a> component library. This helped as a starting ground for the development team on which we implemented custom elements for patterns and components.
+                                        figure>
+                                        <figure>
+                                            <img src="assets/experiences/cerved/MUI.png" alt="" />
+                                            <!-- <figcaption>Description</figcaption> -->
+                                        </figure>
+                                        
+                                        <br>
+                                        <br>
+
+                                        <a href="https://about.gitlab.com/">Gitlab</a> was the choice for the code repository and enabled us to structure issues for code reviews and feedbacks directly from the product teams.
+                                        <br>
+                                        <br>
+                                        Once the assets, components and pattern were developed we set up <a href="https://storybook.js.org/">Storybook</a> as a tool for documentation and single source of truth.
+                                        
+                                        <br>
+                                        This helped simplify the communication with design and develepment teams of the various products and projects inside the company. 
+                                        <br>
+                                        In addition to that, we set up a serie of courses and events, where each single project team was instructed by the Design system team on how to utilize the components, patterns and foundatoins.
+
+                                    </p>
+                                    
+                                    <!--Images-->
+                                    <figure> <!-- //TODO - pictures of design system -->
+                                        <img src=""
+                                            alt="" />
+                                        <!-- <figcaption>Description</figcaption> -->
+                                    </figure>
+
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="#">Description</a>.</p> -->
+                                </section>
+
+                                <hr />
+
+
+                                
+                            </article>   
+                        </section>
                     </div>
-                </a>
-                <a href="https://www.linkedin.com/in/pierpaolotda/" target="_blank" rel="noreferrer noopener" class="card card-compact bg-base-100 basis-60 shrink-0 md:h-96 outline outline-base-300 outline-2 group hover:bg-base-200">
-                    <figure class="basis-full relative">
-                        <button class="hidden btn btn-circle btn-ghost group-hover:inline-flex absolute top-2 right-2 z-10">
-                            <svg class="w-6 h-6 fill-neutral-content aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path fill-rule="evenodd" d="M11.403 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.403a3.01 3.01 0 0 1-1.743-1.612l-3.025 3.025A3 3 0 1 1 9.99 9.768l3.025-3.025A3.01 3.01 0 0 1 11.403 5Z" clip-rule="evenodd"/>
-                                <path fill-rule="evenodd" d="M13.232 4a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1v5.768a1 1 0 1 1-2 0V6.414l-6.182 6.182a1 1 0 0 1-1.414-1.414L17.586 5h-3.354a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
-                            </svg>
-                        </button>
-                        <img class="grayscale group-hover:grayscale-0 object-cover h-full w-full"
-                            src="assets/pier.jpg"
+                </dialog>
+                <!-- //!SECTION  -->
+
+                <!--Product owner-->
+                <div class="card h-80 bg-base-100 basis-60 shrink-0 cursor-pointer hover:bg-base-300" onclick="modal_product_owner.showModal()">
+                    <figure class="basis-full px-4 pt-4">
+                        <img class="object-top object-cover w-full h-full rounded-lg border-2 border-base-300"
+                            src="assets/experiences/trilogy/trilogyCover.png"
                             alt="Name" />
                     </figure>
-                    <div class="card-body basis-1/3">
-                        <h2 class="card-title text-ellipsis">Pier Paolo Topran d'Agata</h2>
-                        <p>Global Supply Chain Professional</p>
-                    </div>
-                </a>
-                <a href="#" target="_blank" rel="noreferrer noopener" class="card card-compact bg-base-100 basis-60 shrink-0 md:h-96 outline outline-base-300 outline-2 group hover:bg-base-200">
-                    <figure class="basis-full relative">
-                        <button class="hidden btn btn-circle btn-ghost group-hover:inline-flex absolute top-2 right-2 z-10">
-                            <svg class="w-6 h-6 fill-neutral-content aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path fill-rule="evenodd" d="M11.403 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.403a3.01 3.01 0 0 1-1.743-1.612l-3.025 3.025A3 3 0 1 1 9.99 9.768l3.025-3.025A3.01 3.01 0 0 1 11.403 5Z" clip-rule="evenodd"/>
-                                <path fill-rule="evenodd" d="M13.232 4a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1v5.768a1 1 0 1 1-2 0V6.414l-6.182 6.182a1 1 0 0 1-1.414-1.414L17.586 5h-3.354a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
-                            </svg>
-                        </button>
-                        <img class="grayscale group-hover:grayscale-0 object-cover h-full w-full"
-                            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Name" />
-                    </figure>
-                    <div class="card-body basis-1/3">
-                        <h2 class="card-title text-ellipsis">Short name</h2>
-                        <p>Short element</p>
-                    </div>
-                </a>
-                <a href="#" target="_blank" rel="noreferrer noopener" class="card card-compact bg-base-100 basis-60 shrink-0 md:h-96 outline outline-base-300 outline-2 group hover:bg-base-200">
-                    <figure class="basis-full relative">
-                        <button class="hidden btn btn-circle btn-ghost group-hover:inline-flex absolute top-2 right-2 z-10">
-                            <svg class="w-6 h-6 fill-neutral-content aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path fill-rule="evenodd" d="M11.403 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.403a3.01 3.01 0 0 1-1.743-1.612l-3.025 3.025A3 3 0 1 1 9.99 9.768l3.025-3.025A3.01 3.01 0 0 1 11.403 5Z" clip-rule="evenodd"/>
-                                <path fill-rule="evenodd" d="M13.232 4a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1v5.768a1 1 0 1 1-2 0V6.414l-6.182 6.182a1 1 0 0 1-1.414-1.414L17.586 5h-3.354a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
-                            </svg>
-                        </button>
-                        <img class="grayscale group-hover:grayscale-0 object-cover h-full w-full"
-                            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Name" />
-                    </figure>
-                    <div class="card-body basis-1/3">
-                        <h2 class="card-title text-ellipsis">Very very very very long name</h2>
-                        <p>Very long description that is long</p>
-                    </div>
-                </a>
+                    <div class="card-body pt-4 basis-1/3">
+                        <h2 class="card-title mb-0">Product Owner</h2>
+                        <p>Trilogy srl</p>
+                    </div> 
+                </div>
+                <!--Product owner modal-->
+                <dialog id="modal_product_owner" class="modal">
+                    <div class="modal-box w-full max-h-full rounded-none md:max-h-[calc(100vh-5em)] md:w-11/12 max-w-5xl md:rounded-2xl p-0">
+                        <!--Header modal-->
+                        <div class="shadow p-6 bg-base-100 border-b border-base-200 sticky top-0 left-0 z-50">
+                            <form method="dialog">
+                                <button class="btn btn-circle btn-ghost absolute right-6 top-6">
+                                <svg class="w-6 h-6 fill-base-content" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                                </svg>
+                                </button>
+                            </form>
+                            <h3 class="text-xl font-semibold">
+                                Product Owner
+                            </h3>
+                            
+                            <a class="text-lg link inline-flex items-center" href="https://trilogy.it/">
+                                Trilogy srl
+                                    <svg class="w-4 h-4 fill-base-content ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd"
+                                        d="M11.403 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.403a3.01 3.01 0 0 1-1.743-1.612l-3.025 3.025A3 3 0 1 1 9.99 9.768l3.025-3.025A3.01 3.01 0 0 1 11.403 5Z"
+                                        clip-rule="evenodd" />
+                                    <path fill-rule="evenodd"
+                                        d="M13.232 4a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1v5.768a1 1 0 1 1-2 0V6.414l-6.182 6.182a1 1 0 0 1-1.414-1.414L17.586 5h-3.354a1 1 0 0 1-1-1Z"
+                                        clip-rule="evenodd" />
+                                    </svg>
+                            </a>
+                            
+                        </div>
+                        <!--Content modal-->
+                        <section class="bg-base-200">
+                            <div class="bg-red-400 h-60 flex justify-center align-bottom">
+                                <img 
+                                class="object-top bg-center h-full"
+                                src="assets/experiences/trilogy/trilogyCover.png" alt="">
+                            </div>
+                            <article class="mt-8 prose prose-slate mx-auto px-4 lg:prose-lg">                            
+                                
+                                <!--Short intro and maybe a recap with main points-->
+                                <p class="lead">
+                                    Following a previous innovation project in which I designed and proposed innovative solutions for companies during the 2020 pandemic, I was asked to take the role of Product owner in the actual development of the project.
+                                    <br>
+                                    During this period I worked as an external consultant in a full-remote agile team for the development of custom web applications.
+                                </p>
+
+
+                                <!--Project 1-->
+                                <section>
+                                    <h2>Problem definition</h2>
+
+                                    <!--Description-->
+                                    <p>
+                                        Since the beginning of the 2020 pandemic, it became clear that digital transformation and business process
+                                        optimization was extremely important, in order to adapt to the new situation.
+                                        <br>
+                                        For this reason, I collaborated with <a href="https://trentinosviluppo.it/">Trentino Sviluppo</a> in redesigning the internal
+                                        processes of the companies located in their innovation centre, supporting them in a digital transition.
+                                        <br>
+                                        After a first phase of discovery and discussion with the companies, it became clear that the main pain point was the need of a digital tool that would track and orchestrate the production line of the companies.
+                                        <br>
+                                        From there I was asked to move forward the project and actively lead a professional <code>scrum</code> team, set up by <a href="https://trilogy.it/">Trilogy srl</a>, in the actual realisation of the digital product for <a href="https://www.metalworkingweb.com/en/">Metalworking srl</a>.
+                                       
+
+                                        <!--Images-->
+                                        <!--//SECTION - Product owner -->
+
+                                    </p>
+                                    
+                                </section>
+                                
+                                <hr />
+
+                                <!--Project 2-->
+                                <section>
+                                    <h2>Requisites and research</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">User interviews</div>
+                                        <div class="badge badge-neutral">Personas</div>
+                                        <div class="badge badge-neutral">Journey map</div>
+                                    </div>
+                                    
+                                    <!--Description-->
+                                    <p>
+                                        We started the project by examining and researching the company's processes and user pain points.
+                                        This was done by visits to the production site, interviews with employees and mapping key flows and documentation of the business.
+                                        <br>
+                                        <br>
+                                        As a first action we inspected the actual production line with the help of the business owners to get a deeper understanding and a first hand look at the company.
+                                        <br>
+                                        Through these visits we gathered material to help us define a streamlined model of the internal processes.
+                                        <br>
+                                        This would also prove important in order to have a direct contact with the potential users of our application.
+                                        <br>
+
+                                        <figure>
+                                            <img src="assets/experiences/trilogy/metalProductionStep.jpg" alt="" />
+                                            <figcaption>A production step of the company</figcaption>
+                                        </figure>
+
+                                        We started outlining the various parts in a flow diagram and identified a total of 12 production steps.
+                                        <br>
+                                        This helped track the necessary data in every step, the actions required by the operators and potential improvements and optimization of the overall flow.
+
+
+                                        <figure>
+                                            <img src="assets/experiences/trilogy/metalProductionDocument.jpg" alt="" />
+                                            <figcaption>Line documentation, to be digitized and integrated in the the Web app</figcaption>
+                                        </figure>
+                                        
+                                    
+                                        Following this action we planned a set of interviews, involving most of the employees of the company. This in order to get the main pain points they were facing with the former process and, potentially, point out potential opportunities of improvement.
+                                        <br>
+                                        At the end of this two weeks period of interviews, we analysed the transcripts and documentation gathered and isolated the main <code>personas</code> that would be the target for the product.
+                                        <br>
                 
+                                        <!--Images-->
+                                        <figure>
+                                            <img src="assets/experiences/trilogy/metalPersonas.png" alt="" />
+                                            <figcaption>The three main personas identified: Technical engineer, Production worker and Line manager</figcaption>
+                                        </figure>
+
+                                        The crucial pain points that emerged were focused around:
+                                        <ul>
+                                            <li>lack of communication between line steps</li>
+                                            <li>improve consistency of documentation</li>
+                                            <li>provide support for quality assurance</li>
+                                        </ul>
+                                        
+                                        <br>
+                                        After a serie of reviews with the stakeholders, where we outlined the proposed solution and findings, we got green light to procede with the planning of development activities.
+
+                                    </p>
+                                </section>
+                                
+
+                                <hr />
+                                
+
+                                <!--Project 3-->
+                                <section>
+                                    <h2>Backlog definition</h2>
+                                    
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">User stories</div>
+                                        <div class="badge badge-neutral">Scrum</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>
+                                        
+                                        As for the planning phase, I set out with the <code>scrum</code> team to define the product backlog in terms of user stories and epics necessaries.
+                                        <br>
+                                        In this stage we also involved two main stakeholder of the company, in order to get direct feedbacks of the specifications and assure a shared understanding of the future developments.
+                                        <br>
+                                        <br>
+                                        <a href="https://trello.com/">Trello</a> was the tool of choice for keeping track of requirements.
+                                        <br>
+                                        Each user story would follow a base template to keep consistency and simplify the review and acceptance process.
+                                        <br>
+                                        I would also write acceptance criteria, shared with the company stakeholders, to guide the internal reviews during which we would show the progress and completed tasks.
+                                        <br>
+                                        Each story would then be weighted by the developers and organised in the product backlog according to its priority in terms of value for the company.
+
+                                        <figure>
+                                            <img src="assets/experiences/trilogy/metalTemplateStory.png" alt="" />
+                                            <figcaption>A user story template we used</figcaption>
+                                        </figure>
+
+                                        Based on the characteristics of each user story we also outlined several groups of functionalities that our product would have covered:
+                                        <br>
+                                        
+                                        <strong>Users authentication</strong>, <strong>Production line steps</strong>, <strong>Users management</strong>, <strong>Manufactures database</strong>, <strong>Filters and dashboards</strong>
+                                        <br>
+                                        <br>
+                                        
+                                        These would form our set of epics with which organise our product backlog and development phase.
+
+                                        The final product was a backlog of around 100 user stories, organised by priority, weighted and approved with the company stakeholders.
+
+                                    </p>
+
+                                </section>
+                                
+                                
+                        
+                                <hr />
+
+                                <!--Project 4-->
+                                <section>
+                                    <h2>Prototypes and development</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Sprint</div>
+                                        <div class="badge badge-neutral">Performance metrics</div>
+                                        <div class="badge badge-neutral">Figma</div>
+                                        <div class="badge badge-neutral">Prototypes</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>
+
+                                        <!-- sprint description -->
+
+
+                                        The development phase was structured in sprints with the duration of two weeks.
+                                        <br>
+                                        Following <code>scrum</code> framework, we would convene on a sprint goal for each sprint and define user stories to be completed.
+                                        We held daily updates internal to the development team to track potential issues or blockers, while I as the product owner, had meetings with the stakeholders twice per week
+                                        <br>
+                                        This organization helped us keep a lean communication between all the parties involved.
+                                        <br>
+                                        <br>
+                                        At the end of the sprint, we held one internal review with the development team in a test environment, to check everything together and prepare a review with the company.
+                                        <br>
+                                        The official sprint review would be held the last day of the sprint, where we presented the stakeholders with the progress and user stories completed.
+                                        <br>
+                                        As a measure of completeness we would follow the Acceptance Criteria in each story, this helped us align the expectations of all the parties involved.
+                                        <br>
+                                        Once the sprint was completed each user story that passed the review would be pushed to the production environment, where the company could start interact with the final product.
+                                        <br>
+                                        <br>
+                                        As conclusion of the sprint we held a retrospective guided by the <code>scrum master</code> to outline potential improvements or blockers inside the team.
+                                        <br>
+                                        We would also plan a first draft of the following sprint to be shared with the stakeholders of the company.
+                                        <br>
+                                        <br>
+                                        The overall progress of the development phase was tracked through metrics using mainly <code>burndown charts</code>. This was a tool for our team to always refer to, both to evaluate our efforts and maintain our commitment to the customer.
+
+                                        <!--Images-->
+                                        <figure> <!-- //TODO - pictures of burndown chart or backlog -->
+                                            <img src=""
+                                                alt="" />
+                                            <!-- <figcaption>Description</figcaption> -->
+                                        </figure>
+                                            
+
+
+
+
+
+                                        <!-- figma and prototypes-->
+                                        While working as the <code>Product owner</code> I would also follow the design of user interfaces, helping the UI designer of the team.
+                                        <br>
+                                        Together we would take user requirements and elaborate <code>Figma</code> prototypes to be shared with the users.
+                                        <br>
+                                        For each story requiring a user interface, we would set up a serie of tests with the users in order to gather direct feedbacks.
+                                        <br>
+                                        These interfaces would then be attached to the user story and drive the development team in the realization of the Front-end. In terms of Palette and Fonts we followed the guidelines of the company's brand.
+                                        
+                                        <!--Images-->
+                                        <figure>
+                                            <img src="assets/experiences/trilogy/metalScreen.png"
+                                                alt="" />
+                                            <figcaption>Mockups of the user interfaces</figcaption>
+                                        </figure>
+                                        
+                                    </p>
+                                    
+                                    
+
+                                </section>
+
+                                <hr />
+
+                                <!--Project 5-->
+                                <section>
+                                    <h2>Feedbacks and user testing</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Usability tests</div>
+                                        <div class="badge badge-neutral">Feedback tracking</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>
+                                        
+                                        The entire development phase took around 10 months. Once the majority of the features were released we started implementing a feedback system for additional improvements and evaluating usability. 
+                                        <br>
+                                        As for tracking requests, bugs and improvements we used various tools such as <a href="https://ybug.io/">ybug</a>, <a href="https://www.hotjar.com/">hotjar</a> and user tests.
+                                        <br>
+                                        <br>
+                                        For this task, we involved specific users in different sectors of the company. With them we planned a serie of usability tests of their activities and tracked how much time would take them to complete.
+                                        <br>
+                                        In the subsequent releases we tried to optimize those metrics and increase the overall productivity of the users in their operations.
+                                        <br>
+                                        <br>
+
+                                        <!--Images-->
+                                        <!-- //TODO - picture of some feedbacks -->
+                                        <!-- <figure>
+                                            <img src=""
+                                                alt="" />
+                                            <figcaption>Description</figcaption>
+                                        </figure> -->
+                                        
+                                        The project was completed on schedule in 12 months, delivering a new information system that helped the company document and track the activities in the production line.
+                                        <br>
+                                        From there the company asked us to extend the project in order to integrate other parts of their information system in our solution, such as customers orders and external purchases.
+
+                                    </p>
+                                    
+                                </section>
+
+                                
+                            </article>   
+                        </section>
+                    </div>
+                </dialog>
+                <!-- //!SECTION  -->
+
+                <!--Influensseri-->
+                <div class="card h-80 bg-base-100 basis-60 shrink-0 cursor-pointer hover:bg-base-300" onclick="modal_influensseri.showModal()">
+                    <figure class="basis-full px-4 pt-4">
+                        <img class="object-top object-cover w-full h-full rounded-lg border-2 border-base-300"
+                            src="assets/experiences/influensseri/influensseriWebsite.png"
+                            alt="Name" />
+                    </figure>
+                    <div class="card-body pt-4 basis-1/3">
+                        <h2 class="card-title mb-0">Co-founder and UX designer</h2>
+                        <p>Influensseri</p>
+                    </div> 
+                </div>
+                <!--Influensseri modal-->
+                <dialog id="modal_influensseri" class="modal">
+                    <div class="modal-box w-full max-h-full rounded-none md:max-h-[calc(100vh-5em)] md:w-11/12 max-w-5xl md:rounded-2xl p-0">
+                        <!--Header modal-->
+                        <div class="shadow p-6 bg-base-100 border-b border-base-200 sticky top-0 left-0 z-50">
+                            <form method="dialog">
+                                <button class="btn btn-circle btn-ghost absolute right-6 top-6">
+                                <svg class="w-6 h-6 fill-base-content" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                                </svg>
+                                </button>
+                            </form>
+                            <h3 class="text-xl font-semibold">
+                                Co-founder and UX designer
+                            </h3>
+                            <p class="text-lg">
+                                Influensseri
+                            </p>
+                        </div>
+                        <!--Content modal-->
+                        <section class="bg-base-200">
+                            <div class="bg-amber-300 h-60 flex justify-center align-bottom">
+                                <img 
+                                class="object-top bg-center h-full"
+                                src="assets/experiences/influensseri/influensseriWebsite.png" alt="">
+                            </div>
+                            <article class="mt-8 prose prose-slate mx-auto px-4 lg:prose-lg">                            
+                                <!--//SECTION - Influensseri -->
+                                <!--Short intro and maybe a recap with main points-->
+                                <p class="lead">
+                                    As a User Experience Designer at Cerved Group I worked on the design and development of digital products for corporate clients in the financial and banking industries.
+                                    <br>
+                                    
+                                </p>
+
+
+                                <!--Project 1-->
+                                <section>
+                                    <h2>Cerved platforms</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Figma</div>
+                                        <div class="badge badge-neutral">Data visualization</div>
+                                        <div class="badge badge-neutral">User feedbacks</div>
+                                        <div class="badge badge-neutral">Charting libraries</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>I started my work at Cerved as a designer focusing on the improvement of the main products of Cerved Group, in
+                                        particular the <a href="https://marketintelligence.cerved.com/">Marketing Intelligence</a> platform and <a href="https://www.cerved.com/risk-intelligence/rischio-di-credito/business-information/cerved-credit-suite/">Cerved Credit Suite</a>.
+                                        <br>
+                                        <br>
+                                        Both products provide data and information about companies, markets, credit risk and
+                                        financial analysis.
+                                        <br>
+                                        They are used by thousands of customers in Europe such as Accenture, PWC, Trenitalia and Poste italiane.
+                                    
+                                        <br>
+                                        <br>
+                                        My contribution to these platforms was gathering customer feedbacks about the <underline>data visualization</underline> in order to define new and more
+                                        accurate charts and indicators to represent the data.
+
+                                        <!--Images-->
+                                        <figure>
+                                            <img src="assets/experiences/cerved/marketIntelligenceCharts.png" alt="" />
+                                            <!-- <figcaption>The Market intelligence platform</figcaption> -->
+                                        </figure>
+
+                                        <br>
+                                        The goal of these activities was improving usability and readability of the data shown while simplifying the information retrieval for the end user.
+                                    </p>
+                                    
+                                    <!--Images-->
+                                    <figure>
+                                    <img src="assets/experiences/cerved/market intelligence.png" alt="" />
+                                    <figcaption>The Market intelligence platform</figcaption>
+                                    </figure>
+                                    
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="https://www.cerved.com/en/marketing-intelligence/market-intelligence/">market intelligence</a>.</p> -->
+                                </section>
+                                
+                                <hr />
+
+                                <!--Project 2-->
+                                <section>
+                                    <h2>From Sketch to Figma</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Sketch</div>
+                                        <div class="badge badge-neutral">Figma</div>
+                                        <div class="badge badge-neutral">Video courses</div>
+                                    </div>
+                                    
+                                    <!--Images-->
+                                    <figure>
+                                    <img src="assets/experiences/cerved/sketch to figma.png" alt="" />
+                                    <!-- <figcaption>Description</figcaption> -->
+                                    </figure>
+
+                                    <blockquote>
+                                        <p>Isn't there a simpler tool to do this?</p>
+                                        </blockquote>
+                                        <i>- Too many designers</i>
+
+                                    <!--Description-->
+                                    <p>Since the design team had been using <code>Sketch</code> as their main design tool and there were many issues with it, I proposed to move our projects and
+                                        operations to <code>Figma</code> in order to improve the efficiency and features available to all designers.
+                                        <br>
+                                        <br>
+                                        In order to achieve that I researched and planned a transition with the different project teams. I supported their
+                                        organization and the rework needed in terms of files, resources, components and libraries to be moved onto the new tool.
+                                        <br>
+                                        <br>
+                                        After the initial phase of transition I supported the entire design team through publishing learning resources on
+                                        best practices on how to utilize Figma, in the form of video pills, courses and template resources.
+                                        <br>
+
+                                        <!--//TODO - Picture of one of my video pills-->
+                                        <!--Images-->
+                                        <figure>
+                                            <img src="" alt="" />
+                                            <!-- <figcaption>The Market intelligence platform</figcaption> -->
+                                        </figure>
+
+                                        The entire process took about two months and the increase of speed and efficiency with which the design team could
+                                        produce new assets was tangible, making the transition worthwhile.
+                                    </p>
+                                </section>
+                                
+
+                                <hr />
+                                
+
+                                <!--Project 3-->
+                                <section>
+                                    <h2>B2B corporate clients</h2>
+                                    
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">User interviews</div>
+                                        <div class="badge badge-neutral">Service blueprints</div>
+                                        <div class="badge badge-neutral">Prototypes</div>
+                                        <div class="badge badge-neutral">User stories</div>
+                                        <div class="badge badge-neutral">Usability tests</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>My main activity as a UX designer has been through the design and development of several digital products for corporate clients such as <a href="https://bnl.it/it/">BNL</a>, <a href="https://www.bancodesio.it/it">Banco Desio</a> .
+                                        <br>
+                                        For each project I was part of a <code>Scrum</code> team composed by developers, data scientists, Product owner and Scrum master. 
+                                        <br>
+                                        <br>
+
+                                        My role was evenly distributed throughout all the different phases of the projects.
+                                        Starting from the business evaluation of the client requests, I would assist the product owner and business analysts in defining the requisites of the proposed solution.
+                                        <br>
+                                        In this phase I would perform customer and <code>user interviews</code> to gather insights and explore alternative solutions to propose to the board of stakeholders, leading workshops and meetings.
+                                        <br>
+                                        <br>
+                                        
+                                        In the second phase I was tasked with designing <code>user journeys</code>, personas and <code>service blueprints</code>, in order to define a preliminary version of the product offered to the client.
+                                        <br>
+                                        In this phase I would also combine different requirements from developers and data scientists, regarding technologies implemented and variations to the client requirements.
+                                        <br>
+                                        After this I would create mock-ups and <code>prototypes</code> with Figma that represented the actual front-end flows the user would interact with.
+                                        Also at this stage I would assist the Product Owner in defining <code>user stories</code> and managing the product backlog in Jira.
+                                        I would also follow the development process through each sprint and gather user feedbacks with <code>usability tests</code> and analysing user interactions.
+                                    
+                                    </p>
+
+                                    <!--Images-->
+                                    <figure> <!--//TODO picture of some projects, finbox or other-->
+                                    <video autoplay loop muted playsinline src="assets/experiences/cerved/DigitalCreditBancoDesioGif.mp4"></video>
+                                    <figcaption>Banco Desio Digital Credit, a digital lending platform for small businesses</figcaption>
+                                    </figure>
+
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="#">Lorem</a>.</p> -->
+                                </section>
+                                
+                                
+                        
+                                <hr />
+
+                                <!--Project 4-->
+                                <section>
+                                    <h2>Cerved design system</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Design Systems</div>
+                                        <div class="badge badge-neutral">Design tokens</div>
+                                        <div class="badge badge-neutral">UI components</div>
+                                        <div class="badge badge-neutral">Storybook</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>One of the biggest projects I was involved in was the development of the internal design system, following the
+                                        transition to Figma tokens.
+                                        <br>
+                                        <br>
+                                        I was part of the design team tasked with the organization, design and maintenance of the <code>Design System</code>
+                                        utilized by all the Product teams in Cerved to develop new products.
+                                        <br>
+                                        This project has been a direct collaboration with the development team, and involved more than twenty people.
+                                        <br>
+                                        <br>
+                                        The first step was clustering all the foundational elements of the company, such as: color styles, typography, UI
+                                        elements, front-end frameworks and technologies utilised by all the different teams.
+                                        <br>
+                                        <br>
+                                        Subsequentially, we defined a common ground of practices and values that were shared between the various product teams.
+                                        From there we planned a roadmap for the design and development of the various assets and foundations of the new design system.
+                                        <br>
+
+                                        We decided to structure the organization of the work with two teams, one composed by designers and one by developers. This in order to separate the activities of design and development and speed up the internal processes.
+                                        <br>
+
+                                        Each team would have a separate Backlog of activities, enabling designers to produce the assets that would drive the development of the actual components of the design system.
+                                        <br>
+
+                                        <figure>
+                                            <img src="assets/experiences/cerved/designSystemFlow.png" alt="" />
+                                            <!-- <figcaption>Description</figcaption> -->
+                                        </figure>
+                                        
+                                        Communication was kept daily between the teams, with a minimum of one review per week of the work done and the planning of following activities.
+                                        <br>
+                                        <br>
+                                        Every two weeks we held a more structured review with all different product teams of the company (roughly 100 people) where we would preview the progress of the project, release assets completed and gather feedbacks. 
+
+                                        <br>
+                                        <br>
+
+                                        As a starting point for the structure of the code we utilised the <a href="https://mui.com/material-ui/all-components/">Material UI</a> component library. This helped as a starting ground for the development team on which we implemented custom elements for patterns and components.
+                                        figure>
+                                        <figure>
+                                            <img src="assets/experiences/cerved/MUI.png" alt="" />
+                                            <!-- <figcaption>Description</figcaption> -->
+                                        </figure>
+                                        
+                                        <br>
+                                        <br>
+
+                                        <code>Gitlab</code> was the choice for the code repository and enabled us to structure issues for code reviews and feedbacks directly from the product teams.
+                                        <br>
+                                        <br>
+                                        Once the assets, components and pattern were developed we set up <code>Storybook</code> as a tool for documentation and single source of truth.
+                                        <!-- //TODO - pictures of some tools, gitlab, storybook -->
+                                        <br>
+                                        This helped simplify the communication with design and develepment teams of the various products and projects inside the company. 
+                                        <br>
+                                        In addition to that, we set up a serie of courses and events, where each single project team was instructed by the Design system team on how to utilize the components, patterns and foundatoins.
+
+                                    </p>
+                                    
+                                    <!--Images-->
+                                    <figure> <!-- //TODO - pictures of design system -->
+                                        <img src=""
+                                            alt="" />
+                                        <figcaption>Description</figcaption>
+                                    </figure>
+
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="#">Description</a>.</p> -->
+                                </section>
+                                <!--//!SECTION -->
+
+                                <hr />
+
+
+                                
+                            </article>   
+                        </section>
+                    </div>
+                </dialog>
+
+                <!--Elis-->
+                <div class="card h-80 bg-base-100 basis-60 shrink-0 cursor-pointer hover:bg-base-300" onclick="modal_elis.showModal()">
+                    <figure class="basis-full px-4 pt-4">
+                        <img class="object-top object-cover w-full h-full rounded-lg border-2 border-base-300"
+                            src="assets/experiences/elis/openItalyWebsite.png"
+                            alt="Name" />
+                    </figure>
+                    <div class="card-body pt-4 basis-1/3">
+                        <h2 class="card-title mb-0">Junior innovation consultant</h2>
+                        <p>Elis Open Italy</p>
+                    </div> 
+                </div>
+                <!--Elis modal-->
+                <dialog id="modal_elis" class="modal">
+                    <div class="modal-box w-full max-h-full rounded-none md:max-h-[calc(100vh-5em)] md:w-11/12 max-w-5xl md:rounded-2xl p-0">
+                        <!--Header modal-->
+                        <div class="shadow p-6 bg-base-100 border-b border-base-200 sticky top-0 left-0 z-50">
+                            <form method="dialog">
+                                <button class="btn btn-circle btn-ghost absolute right-6 top-6">
+                                <svg class="w-6 h-6 fill-base-content" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+                                </svg>
+                                </button>
+                            </form>
+
+                            <h3 class="text-xl font-semibold">
+                                Junior innovation consultant
+                            </h3>
+                        
+                            <a class="text-lg link inline-flex items-center" href="https://open-italy.elis.org/">
+                                Elis Open Italy
+                                <svg class="w-4 h-4 fill-base-content ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                    d="M11.403 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.403a3.01 3.01 0 0 1-1.743-1.612l-3.025 3.025A3 3 0 1 1 9.99 9.768l3.025-3.025A3.01 3.01 0 0 1 11.403 5Z"
+                                    clip-rule="evenodd" />
+                                <path fill-rule="evenodd"
+                                    d="M13.232 4a1 1 0 0 1 1-1H20a1 1 0 0 1 1 1v5.768a1 1 0 1 1-2 0V6.414l-6.182 6.182a1 1 0 0 1-1.414-1.414L17.586 5h-3.354a1 1 0 0 1-1-1Z"
+                                    clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            
+                        </div>
+                        <!--Content modal-->
+                        <section class="bg-base-200">
+                            <div class="bg-purple-300 h-60 flex justify-center align-bottom">
+                                <img 
+                                class="object-top bg-center"
+                                src="assets/experiences/elis/openItalyWebsite.png" alt="">
+                            </div>
+                            <article class="mt-8 prose prose-slate mx-auto px-4 lg:prose-lg">                            
+                                
+                                <!--Short intro and maybe a recap with main points-->
+                                <p class="lead">
+                                    As a User Experience Designer at Cerved Group I worked on the design and development of digital products for corporate clients in the financial and banking industries.
+                                    <br>
+                                    Moreover I was part of the team that planned, designed and executed the release of the Cerved Design System.
+                                </p>
+
+
+                                <!--Project 1-->
+                                <section>
+                                    <h2>Cerved platforms</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Figma</div>
+                                        <div class="badge badge-neutral">Data visualization</div>
+                                        <div class="badge badge-neutral">User feedbacks</div>
+                                        <div class="badge badge-neutral">Charting libraries</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>I started my work at Cerved as a designer focusing on the improvement of the main products of Cerved Group, in
+                                        particular the <a href="https://marketintelligence.cerved.com/">Marketing Intelligence</a> platform and <a href="https://www.cerved.com/risk-intelligence/rischio-di-credito/business-information/cerved-credit-suite/">Cerved Credit Suite</a>.
+                                        <br>
+                                        <br>
+                                        Both products provide data and information about companies, markets, credit risk and
+                                        financial analysis.
+                                        <br>
+                                        They are used by thousands of customers in Europe such as Accenture, PWC, Trenitalia and Poste italiane.
+                                    
+                                        <br>
+                                        <br>
+                                        My contribution to these platforms was gathering customer feedbacks about the <underline>data visualization</underline> in order to define new and more
+                                        accurate charts and indicators to represent the data.
+
+                                        <!--Images-->
+                                        <figure>
+                                            <img src="assets/experiences/cerved/marketIntelligenceCharts.png" alt="" />
+                                            <!-- <figcaption>The Market intelligence platform</figcaption> -->
+                                        </figure>
+
+                                        <br>
+                                        The goal of these activities was improving usability and readability of the data shown while simplifying the information retrieval for the end user.
+                                    </p>
+                                    
+                                    <!--Images-->
+                                    <figure>
+                                    <img src="assets/experiences/cerved/market intelligence.png" alt="" />
+                                    <figcaption>The Market intelligence platform</figcaption>
+                                    </figure>
+                                    
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="https://www.cerved.com/en/marketing-intelligence/market-intelligence/">market intelligence</a>.</p> -->
+                                </section>
+                                
+                                <hr />
+
+                                <!--Project 2-->
+                                <section>
+                                    <h2>From Sketch to Figma</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Sketch</div>
+                                        <div class="badge badge-neutral">Figma</div>
+                                        <div class="badge badge-neutral">Video courses</div>
+                                    </div>
+                                    
+                                    <!--Images-->
+                                    <figure>
+                                    <img src="assets/experiences/cerved/sketch to figma.png" alt="" />
+                                    <!-- <figcaption>Description</figcaption> -->
+                                    </figure>
+
+                                    <blockquote>
+                                        <p>Isn't there a simpler tool to do this?</p>
+                                        </blockquote>
+                                        <i>- Too many designers</i>
+
+                                    <!--Description-->
+                                    <p>Since the design team had been using <code>Sketch</code> as their main design tool and there were many issues with it, I proposed to move our projects and
+                                        operations to <code>Figma</code> in order to improve the efficiency and features available to all designers.
+                                        <br>
+                                        <br>
+                                        In order to achieve that I researched and planned a transition with the different project teams. I supported their
+                                        organization and the rework needed in terms of files, resources, components and libraries to be moved onto the new tool.
+                                        <br>
+                                        <br>
+                                        After the initial phase of transition I supported the entire design team through publishing learning resources on
+                                        best practices on how to utilize Figma, in the form of video pills, courses and template resources.
+                                        <br>
+
+                                        <!--//TODO - Picture of one of my video pills-->
+                                        <!--Images-->
+                                        <figure>
+                                            <img src="" alt="" />
+                                            <!-- <figcaption>The Market intelligence platform</figcaption> -->
+                                        </figure>
+
+                                        The entire process took about two months and the increase of speed and efficiency with which the design team could
+                                        produce new assets was tangible, making the transition worthwhile.
+                                    </p>
+                                </section>
+                                
+
+                                <hr />
+                                
+
+                                <!--Project 3-->
+                                <section>
+                                    <h2>B2B corporate clients</h2>
+                                    
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">User interviews</div>
+                                        <div class="badge badge-neutral">Service blueprints</div>
+                                        <div class="badge badge-neutral">Prototypes</div>
+                                        <div class="badge badge-neutral">User stories</div>
+                                        <div class="badge badge-neutral">Usability tests</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>My main activity as a UX designer has been through the design and development of several digital products for corporate clients such as <a href="https://bnl.it/it/">BNL</a>, <a href="https://www.bancodesio.it/it">Banco Desio</a> .
+                                        <br>
+                                        For each project I was part of a <code>Scrum</code> team composed by developers, data scientists, Product owner and Scrum master. 
+                                        <br>
+                                        <br>
+
+                                        My role was evenly distributed throughout all the different phases of the projects.
+                                        Starting from the business evaluation of the client requests, I would assist the product owner and business analysts in defining the requisites of the proposed solution.
+                                        <br>
+                                        In this phase I would perform customer and <code>user interviews</code> to gather insights and explore alternative solutions to propose to the board of stakeholders, leading workshops and meetings.
+                                        <br>
+                                        <br>
+                                        
+                                        In the second phase I was tasked with designing <code>user journeys</code>, personas and <code>service blueprints</code>, in order to define a preliminary version of the product offered to the client.
+                                        <br>
+                                        In this phase I would also combine different requirements from developers and data scientists, regarding technologies implemented and variations to the client requirements.
+                                        <br>
+                                        After this I would create mock-ups and <code>prototypes</code> with Figma that represented the actual front-end flows the user would interact with.
+                                        Also at this stage I would assist the Product Owner in defining <code>user stories</code> and managing the product backlog in Jira.
+                                        I would also follow the development process through each sprint and gather user feedbacks with <code>usability tests</code> and analysing user interactions.
+                                    
+                                    </p>
+
+                                    <!--Images-->
+                                    <figure> <!--//TODO picture of some projects, finbox or other-->
+                                    <video autoplay loop muted playsinline src="assets/experiences/cerved/DigitalCreditBancoDesioGif.mp4"></video>
+                                    <figcaption>Banco Desio Digital Credit, a digital lending platform for small businesses</figcaption>
+                                    </figure>
+
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="#">Lorem</a>.</p> -->
+                                </section>
+                                
+                                
+                        
+                                <hr />
+
+                                <!--Project 4-->
+                                <section>
+                                    <h2>Cerved design system</h2>
+
+                                    <!--hashtags or tags about this experience-->
+                                    <h4>Skills and tools applied</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <div class="badge badge-neutral">Design Systems</div>
+                                        <div class="badge badge-neutral">Design tokens</div>
+                                        <div class="badge badge-neutral">UI components</div>
+                                        <div class="badge badge-neutral">Storybook</div>
+                                    </div>
+
+                                    <!--Description-->
+                                    <p>One of the biggest projects I was involved in was the development of the internal design system, following the
+                                        transition to Figma tokens.
+                                        <br>
+                                        <br>
+                                        I was part of the design team tasked with the organization, design and maintenance of the <code>Design System</code>
+                                        utilized by all the Product teams in Cerved to develop new products.
+                                        <br>
+                                        This project has been a direct collaboration with the development team, and involved more than twenty people.
+                                        <br>
+                                        <br>
+                                        The first step was clustering all the foundational elements of the company, such as: color styles, typography, UI
+                                        elements, front-end frameworks and technologies utilised by all the different teams.
+                                        <br>
+                                        <br>
+                                        Subsequentially, we defined a common ground of practices and values that were shared between the various product teams.
+                                        From there we planned a roadmap for the design and development of the various assets and foundations of the new design system.
+                                        <br>
+
+                                        We decided to structure the organization of the work with two teams, one composed by designers and one by developers. This in order to separate the activities of design and development and speed up the internal processes.
+                                        <br>
+
+                                        Each team would have a separate Backlog of activities, enabling designers to produce the assets that would drive the development of the actual components of the design system.
+                                        <br>
+
+                                        <figure>
+                                            <img src="assets/experiences/cerved/designSystemFlow.png" alt="" />
+                                            <!-- <figcaption>Description</figcaption> -->
+                                        </figure>
+                                        
+                                        Communication was kept daily between the teams, with a minimum of one review per week of the work done and the planning of following activities.
+                                        <br>
+                                        <br>
+                                        Every two weeks we held a more structured review with all different product teams of the company (roughly 100 people) where we would preview the progress of the project, release assets completed and gather feedbacks. 
+
+                                        <br>
+                                        <br>
+
+                                        As a starting point for the structure of the code we utilised the <a href="https://mui.com/material-ui/all-components/">Material UI</a> component library. This helped as a starting ground for the development team on which we implemented custom elements for patterns and components.
+                                        figure>
+                                        <figure>
+                                            <img src="assets/experiences/cerved/MUI.png" alt="" />
+                                            <!-- <figcaption>Description</figcaption> -->
+                                        </figure>
+                                        
+                                        <br>
+                                        <br>
+
+                                        <code>Gitlab</code> was the choice for the code repository and enabled us to structure issues for code reviews and feedbacks directly from the product teams.
+                                        <br>
+                                        <br>
+                                        Once the assets, components and pattern were developed we set up <code>Storybook</code> as a tool for documentation and single source of truth.
+                                        <!-- //TODO - pictures of some tools, gitlab, storybook -->
+                                        <br>
+                                        This helped simplify the communication with design and develepment teams of the various products and projects inside the company. 
+                                        <br>
+                                        In addition to that, we set up a serie of courses and events, where each single project team was instructed by the Design system team on how to utilize the components, patterns and foundatoins.
+
+                                    </p>
+                                    
+                                    <!--Images-->
+                                    <figure> <!-- //TODO - pictures of design system -->
+                                        <img src=""
+                                            alt="" />
+                                        <figcaption>Description</figcaption>
+                                    </figure>
+
+                                    <!--Extra details-->
+                                    <!-- <p>For more information about it, <a href="#">Description</a>.</p> -->
+                                </section>
+
+                                <hr />
+
+
+                                
+                            </article>   
+                        </section>
+                    </div>
+                </dialog>
+
             </div>
         </div>
     </section>
 
 
         <!--Footer's svg-->
-        <svg class=" max-h-20 w-full bg-base-100 border-l-4 border-t-4 border-r-4 border-base-content rounded-t-2xl" xmlns="http://www.w3.org/2000/svg">
+        <svg class="max-h-20 w-full bg-base-100 border-l-4 border-t-4 border-r-4 border-base-content rounded-t-2xl" xmlns="http://www.w3.org/2000/svg">
             <defs>
             <pattern id="wavea" patternUnits="userSpaceOnUse" width="34.129" height="45" patternTransform="scale(2)">
         
