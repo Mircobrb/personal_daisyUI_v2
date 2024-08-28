@@ -4729,6 +4729,10 @@ html {
   bottom: var(--tooltip-tail-offset);
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -4775,6 +4779,10 @@ html {
 
 .top-6 {
   top: 1.5rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .z-0 {
@@ -4857,6 +4865,18 @@ html {
   margin-top: 2rem;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -4919,6 +4939,30 @@ html {
 
 .min-h-svh {
   min-height: 100svh;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-lvh {
+  min-height: 100lvh;
+}
+
+.min-h-\[calc\(100vh-5em\)\] {
+  min-height: calc(100vh - 5em);
+}
+
+.min-h-\[calc\(100vh-\)\] {
+  min-height: calc(100vh - );
+}
+
+.min-h-\[calc\(100vh-85px\)\] {
+  min-height: calc(100vh - 85px);
+}
+
+.min-h-\[calc\(100svh-85px\)\] {
+  min-height: calc(100svh - 85px);
 }
 
 .w-32 {
