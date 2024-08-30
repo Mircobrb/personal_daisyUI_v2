@@ -17,7 +17,7 @@ Mobile
 - [ ] add download cv button
 - [ ] update friends section (make them full color on mobile)
 - [ ] make navbar rounded floating in the middle
-- [ ] fix theme theme change usign theme controller
+- [ ] fix theme change to show correct icon
 
 # PROJECTS PAGE
 
