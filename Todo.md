@@ -17,6 +17,8 @@ Mobile
 - [ ] add download cv button
 - [ ] update friends section (make them full color on mobile)
 - [ ] make navbar rounded floating in the middle
+    - [ ] remove padding y menu
+    - [ ] fix content svh to cover also the part of the floating navbar
 - [ ] fix theme change to show correct icon
 
 # PROJECTS PAGE
