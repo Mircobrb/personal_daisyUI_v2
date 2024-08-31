@@ -26,7 +26,7 @@ Mobile
 
 # SAY HELLO
 
-- [ ] contact
+- [ ] add contact to the button
 
 
 # EXPERIENCE PAGE
