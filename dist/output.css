@@ -5006,6 +5006,38 @@ details.collapse summary::-webkit-details-marker {
   margin: 0px;
 }
 
+.-m-6 {
+  margin: -1.5rem;
+}
+
+.-m-12 {
+  margin: -3rem;
+}
+
+.-m-24 {
+  margin: -6rem;
+}
+
+.-m-20 {
+  margin: -5rem;
+}
+
+.-m-2 {
+  margin: -0.5rem;
+}
+
+.-m-\[8\] {
+  margin: -8;
+}
+
+.-m-\[84px\] {
+  margin: -84px;
+}
+
+.-m-\[86px\] {
+  margin: -86px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -5117,6 +5149,10 @@ details.collapse summary::-webkit-details-marker {
   height: 100%;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
 .max-h-20 {
   max-height: 5rem;
 }
@@ -5139,6 +5175,54 @@ details.collapse summary::-webkit-details-marker {
 
 .min-h-svh {
   min-height: 100svh;
+}
+
+.min-h-\[calc\(100svh-80px\)\] {
+  min-height: calc(100svh - 80px);
+}
+
+.min-h-\[calc\(100svh-100px\)\] {
+  min-height: calc(100svh - 100px);
+}
+
+.min-h-\[calc\(100svh-110px\)\] {
+  min-height: calc(100svh - 110px);
+}
+
+.min-h-\[calc\(100svh\+110px\)\] {
+  min-height: calc(100svh + 110px);
+}
+
+.min-h-\[calc\(100svh-86px\)\] {
+  min-height: calc(100svh - 86px);
+}
+
+.min-h-\[calc\(100svh-96px\)\] {
+  min-height: calc(100svh - 96px);
+}
+
+.min-h-\[calc\(100svh-104px\)\] {
+  min-height: calc(100svh - 104px);
+}
+
+.min-h-\[calc\(100svh-120px\)\] {
+  min-height: calc(100svh - 120px);
+}
+
+.min-h-\[calc\(100svh-px\)\] {
+  min-height: calc(100svh - px);
+}
+
+.min-h-\[calc\(100svh-76px\)\] {
+  min-height: calc(100svh - 76px);
+}
+
+.min-h-\[calc\(100svh-82px\)\] {
+  min-height: calc(100svh - 82px);
+}
+
+.min-h-\[calc\(100svh-90px\)\] {
+  min-height: calc(100svh - 90px);
 }
 
 .w-10 {
@@ -5172,6 +5256,14 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .max-w-20 {
@@ -5567,6 +5659,10 @@ details.collapse summary::-webkit-details-marker {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -6134,6 +6230,10 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:min-h-\[calc\(100svh-86px\)\] {
+    min-height: calc(100svh - 86px);
   }
 
   .lg\:flex-row {

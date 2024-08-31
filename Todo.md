@@ -4,6 +4,7 @@
 - [ ] fix assets folders
 - [ ] update friends section (make them full color on mobile)
 - [ ] fix theme change to show correct icon
+- [ ] fix spacing from top hero block
 
 # PROJECTS PAGE
 
@@ -13,10 +14,12 @@
 - [ ] thinkertoys website
 - [ ] surfboard shaping
 - [ ] this website
+- [ ] add svg at the end for specific page
 
 
 # WRITINGS PAGE
 - [ ] list of writings in vertical orientation, like books staked
+- [ ] add svg at the end for specific page
 
 # Mobile
 
@@ -37,3 +40,5 @@ Mobile
 - [ ] add date of experience (just year)
 - [ ] fix lead text in modal for mobile
 - [ ] refine content in modals (text and imgs)
+- [ ] add svg at the end for specific page
+- [ ] fix alignment of card titles
