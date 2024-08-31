@@ -3,8 +3,7 @@
 - [ ] enlarge img on click
 - [ ] add description of companies (cerved group nr1 data provider in italy)
 - [ ] add date of experience (just year)
-- [ ] fix font size for header modal title and subtitle
-- [ ] fix layout without too many flexbox items
+- [ ] fix lead text in modal for mobile
 
 
 # Mobile
@@ -15,9 +14,10 @@ Mobile
 # MAIN PAGE
 
 - [ ] fix assets folders
-- [ ] add link to github button
 - [ ] add download cv button
 - [ ] update friends section (make them full color on mobile)
+- [ ] fix content svh to cover also the part of the floating navbar
+- [ ] fix theme change to show correct icon
 
 # PROJECTS PAGE
 
@@ -27,6 +27,9 @@ Mobile
 - [ ] thinkertoys website
 - [ ] surfboard shaping
 - [ ] this website
+
+# WRITINGS PAGE
+- [ ] list of writings in vertical orientation, like books staked
 
 # SAY HELLO
 

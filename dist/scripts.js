@@ -17,3 +17,5 @@ async function copyContent() {
     document.getElementById("copyTooltip").setAttribute('data-tip', 'Copy link');
 
   }
+
+
