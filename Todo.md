@@ -2,7 +2,7 @@
 # MAIN PAGE
 
 - [ ] fix assets folders
-- [ ] update friends section (make them full color on mobile)
+- [ ] make friends elements full color on mobile
 - [ ] fix theme change to show correct icon
 - [ ] fix spacing from top hero block
 
