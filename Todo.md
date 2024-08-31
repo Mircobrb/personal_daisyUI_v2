@@ -1,11 +1,4 @@
 
-
-
-# Mobile
-
-Mobile
-- [ ] fix font size and elements dimension for mobile
-
 # MAIN PAGE
 
 - [ ] fix assets folders
@@ -21,8 +14,16 @@ Mobile
 - [ ] surfboard shaping
 - [ ] this website
 
+
 # WRITINGS PAGE
 - [ ] list of writings in vertical orientation, like books staked
+
+# Mobile
+
+Mobile
+- [ ] fix font size and elements dimension for mobile
+
+
 
 # SAY HELLO
 
