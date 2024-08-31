@@ -5399,12 +5399,144 @@ details.collapse summary::-webkit-details-marker {
   fill: var(--fallback-ac,oklch(var(--ac)/1));
 }
 
+.fill-white {
+  fill: #fff;
+}
+
+.fill-black {
+  fill: #000;
+}
+
+.fill-blue-200 {
+  fill: #bfdbfe;
+}
+
+.fill-blue-400 {
+  fill: #60a5fa;
+}
+
+.fill-base-200 {
+  fill: var(--fallback-b2,oklch(var(--b2)/1));
+}
+
+.fill-base-300 {
+  fill: var(--fallback-b3,oklch(var(--b3)/1));
+}
+
+.fill-teal-300 {
+  fill: #5eead4;
+}
+
+.fill-teal-600 {
+  fill: #0d9488;
+}
+
+.fill-red-200 {
+  fill: #fecaca;
+}
+
+.fill-red-600 {
+  fill: #dc2626;
+}
+
+.fill-slate-900 {
+  fill: #0f172a;
+}
+
+.fill-red-400 {
+  fill: #f87171;
+}
+
+.fill-red-300 {
+  fill: #fca5a5;
+}
+
+.fill-slate-600 {
+  fill: #475569;
+}
+
+.fill-zinc-600 {
+  fill: #52525b;
+}
+
+.fill-stone-400 {
+  fill: #a8a29e;
+}
+
+.fill-blue-700 {
+  fill: #1d4ed8;
+}
+
+.fill-teal-200 {
+  fill: #99f6e4;
+}
+
+.fill-teal-100 {
+  fill: #ccfbf1;
+}
+
+.fill-green-600 {
+  fill: #16a34a;
+}
+
+.fill-yellow-300 {
+  fill: #fde047;
+}
+
+.fill-green-500 {
+  fill: #22c55e;
+}
+
+.fill-green-700 {
+  fill: #15803d;
+}
+
+.fill-green-800 {
+  fill: #166534;
+}
+
+.fill-slate-50 {
+  fill: #f8fafc;
+}
+
+.fill-slate-100 {
+  fill: #f1f5f9;
+}
+
+.fill-sky-100 {
+  fill: #e0f2fe;
+}
+
+.fill-sky-600 {
+  fill: #0284c7;
+}
+
+.fill-sky-300 {
+  fill: #7dd3fc;
+}
+
+.fill-sky-50 {
+  fill: #f0f9ff;
+}
+
+.fill-sky-200 {
+  fill: #bae6fd;
+}
+
 .stroke-base-content {
   stroke: var(--fallback-bc,oklch(var(--bc)/1));
 }
 
 .stroke-blue-500 {
   stroke: #3b82f6;
+}
+
+.stroke-yellow-300 {
+  stroke: #fde047;
+}
+
+.stroke-amber-300 {
+  stroke: #fcd34d;
 }
 
 .stroke-2 {
