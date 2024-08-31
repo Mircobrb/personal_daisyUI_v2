@@ -1,9 +1,4 @@
-# EXPERIENCE PAGE
 
-- [ ] enlarge img on click
-- [ ] add description of companies (cerved group nr1 data provider in italy)
-- [ ] add date of experience (just year)
-- [ ] fix lead text in modal for mobile
 
 
 # Mobile
@@ -14,9 +9,7 @@ Mobile
 # MAIN PAGE
 
 - [ ] fix assets folders
-- [ ] add download cv button
 - [ ] update friends section (make them full color on mobile)
-- [ ] fix content svh to cover also the part of the floating navbar
 - [ ] fix theme change to show correct icon
 
 # PROJECTS PAGE
@@ -34,3 +27,12 @@ Mobile
 # SAY HELLO
 
 - [ ] contact
+
+
+# EXPERIENCE PAGE
+
+- [ ] enlarge img on click
+- [ ] add description of companies (cerved group nr1 data provider in italy)
+- [ ] add date of experience (just year)
+- [ ] fix lead text in modal for mobile
+- [ ] refine content in modals (text and imgs)
