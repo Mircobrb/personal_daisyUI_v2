@@ -1,6 +1,7 @@
 
 # MAIN PAGE
 
+- [ ] change copy, with something more interesting, take out the "it has been a long journey, add suggestions to explore othe pages
 - [ ] fix assets folders
 - [ ] make friends elements full color on mobile
 - [ ] fix theme change to show correct icon
