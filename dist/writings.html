@@ -4,134 +4,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writings</title>
-    <link rel="icon" href="/assets/MB.svg" type="image/svg+xml">
+    <meta name="author" content="Mirco Barbero" />
+    <meta name="description" content="Personal website of Mirco Barbero, UX designer and Product owner." />
+    <title>Writigns</title>
+
+
+    <link rel="icon" href="assets/MB.svg" type="image/svg+xml">
     <link rel="stylesheet" href="output.css">
     <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+    <script src="scripts.js" defer></script>
 </head>
 
 <body>
 
-    <!--Navbar-->
-    <nav class="navbar bg-base-100 border-b border-inherit sticky top-0 z-50">
-        <div class="navbar-start">
-            <!--Dropdown @media-sm-->
-            <div class="dropdown lg:hidden">
-                <button class="btn btn-ghost text-base">
-                    <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M7.94971 11.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M7.94971 23.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M7.94971 35.9497H39.9497" class="stroke-base-content" stroke-width="4" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                    Mirco Barbero
-                </button>
-                <ul class="menu menu-lg dropdown-content rounded-box bg-base-100 z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a href="index.html">Who am I</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li class=""><a href="writings.html">Writings<span class="badge badge-sm badge-warning">Out
-                                soon</span></a></li>
-                </ul>
-            </div>
-            <!--Button @media-lg-->
-            <button class="btn btn-ghost text-xl hidden lg:flex">
-                <a href="index.html">Mirco Barbero</a>
-            </button>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal rounded-box">
+    <!--Header-->
+    <div class="px-4 sticky top-6 z-50 sm:mx-auto max-w-screen-xl">
+        
+        <!--Navbar sm--> 
+        <div class="collapse bg-base-100 border border-base-300 rounded-2xl lg:hidden">
+            <input type="checkbox" name="" id="" class="">
+            <nav class="navbar collapse-title pr-4">
+            
+                <!--Nav start-->
+                <div class="navbar-start">
+                    <!--Index Button-->
+                    <button class="btn btn-ghost text-xl">
+                        <a href="index.html">
+                            Mirco Barbero
+                        </a>
+                    </button>
+                </div>
+            
+                <!--Nav end-->
+                <div class="navbar-end">
+                    <button class="btn btn-ghost">
+                        <svg class="w-8 h-8 fill-base-content" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+            <ul class="menu menu-lg collapse-content py-0">
                 <li><a href="index.html">Who am I</a></li>
                 <li><a href="experience.html">Experience</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li class="indicator"><a href="writings.html">Writings <span class="badge badge-sm badge-warning indicator-item">Out
-                            soon</span></a></li>
+                <li><a class="active" href="writings.html">Writings<span class="badge badge-sm badge-warning">Out soon</span></a></li>
+                <li class="">
+                    <a href="">
+                        Say hello 
+                        <svg class="w-8 h-8 fill-base-content" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path d="M250.8 1.4c-35.2-3.7-66.6 21.8-70.3 57L174 119 156.7 69.6C145 36.3 108.4 18.8 75.1 30.5S24.2 78.8 35.9 112.1L88.7 262.2C73.5 276.7 64 297.3 64 320c0 0 0 0 0 0l0 24c0 92.8 75.2 168 168 168l48 0c92.8 0 168-75.2 168-168l0-72 0-16 0-32c0-35.3-28.7-64-64-64c-7.9 0-15.4 1.4-22.4 4c-10.4-21.3-32.3-36-57.6-36c-.7 0-1.5 0-2.2 0l5.9-56.3c3.7-35.2-21.8-66.6-57-70.3zm-.2 155.4C243.9 166.9 240 179 240 192l0 48c0 .7 0 1.4 0 2c-5.1-1.3-10.5-2-16-2l-7.4 0-5.4-15.3 17-161.3c.9-8.8 8.8-15.2 17.6-14.2s15.2 8.8 14.2 17.6l-9.5 90.1zM111.4 85.6L165.7 240 144 240c-4 0-8 .3-11.9 .9L81.2 96.2c-2.9-8.3 1.5-17.5 9.8-20.4s17.5 1.5 20.4 9.8zM288 192c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 0 16c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48zm38.4 108c10.4 21.3 32.3 36 57.6 36c5.5 0 10.9-.7 16-2l0 10c0 66.3-53.7 120-120 120l-48 0c-66.3 0-120-53.7-120-120l0-24s0 0 0 0c0-17.7 14.3-32 32-32l80 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0c35.3 0 64-28.7 64-64c0-.7 0-1.4 0-2c5.1 1.3 10.5 2 16 2c7.9 0 15.4-1.4 22.4-4zM400 272c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-32 0-16c0-8.8 7.2-16 16-16s16 7.2 16 16l0 32 0 16z"/>
+                        </svg>
+                    </a>
+                </li>
+                <hr>
+
+                <li class="pt-2">
+                    <label class="btn btn-ghost btn-square swap swap-flip w-full">
+                        <input type="checkbox"/>
+                            <!--moon icon-->
+                        
+                        <svg id="moon-icon" class="w-10 h-10 fill-base-content swap-off" data-set-theme="dark" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M11.675 2.015a.998.998 0 0 0-.403.011C6.09 2.4 2 6.722 2 12c0 5.523 4.477 10 10 10 4.356 0 8.058-2.784 9.43-6.667a1 1 0 0 0-1.02-1.33c-.08.006-.105.005-.127.005h-.001l-.028-.002A5.227 5.227 0 0 0 20 14a8 8 0 0 1-8-8c0-.952.121-1.752.404-2.558a.996.996 0 0 0 .096-.428V3a1 1 0 0 0-.825-.985Z" clip-rule="evenodd"/>
+                        </svg>
+                        
+                        <!--sun icon-->
+                    
+                        <svg id="sun-icon" class="w-10 h-10 fill-base-content swap-on" data-set-theme="light" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M13 3a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0V3ZM6.343 4.929A1 1 0 0 0 4.93 6.343l1.414 1.414a1 1 0 0 0 1.414-1.414L6.343 4.929Zm12.728 1.414a1 1 0 0 0-1.414-1.414l-1.414 1.414a1 1 0 0 0 1.414 1.414l1.414-1.414ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm-9 4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H3Zm16 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2h-2ZM7.757 17.657a1 1 0 1 0-1.414-1.414l-1.414 1.414a1 1 0 1 0 1.414 1.414l1.414-1.414Zm9.9-1.414a1 1 0 0 0-1.414 1.414l1.414 1.414a1 1 0 0 0 1.414-1.414l-1.414-1.414ZM13 19a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0v-2Z" clip-rule="evenodd"/>
+                        </svg>
+                        
+                    </label>
+                </li>
+                
             </ul>
         </div>
-        <div class="navbar-end space-x-2">
-            <label class="btn btn-ghost btn-circle btn-sm swap swap-flip">
-                <input type="checkbox" />
 
-                <!--dark mode-->
-                <div class="swap-on" data-set-theme="light" data-act-class="ACTIVECLASS">
-                    <svg width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M28.0527 4.41085C22.5828 5.83695 18.5455 10.8106 18.5455 16.7273C18.5455 23.7564 24.2436 29.4545 31.2727 29.4545C37.1894 29.4545 42.1631 25.4172 43.5891 19.9473C43.8585 21.256 44 22.6115 44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4C25.3885 4 26.744 4.14149 28.0527 4.41085Z" class="fill-base-content"/>
-                    </svg>
-                </div>
-
-                <!--light mode-->
-                <div class="swap-off" data-set-theme="dark" data-act-class="ACTIVECLASS">
-                    <svg width="24" height="24" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M24 37C31.1797 37 37 31.1797 37 24C37 16.8203 31.1797 11 24 11C16.8203 11 11 16.8203 11 24C11 31.1797 16.8203 37 24 37Z" class="fill-base-content"/>
-                        <path d="M24 6C25.3807 6 26.5 4.88071 26.5 3.5C26.5 2.11929 25.3807 1 24 1C22.6193 1 21.5 2.11929 21.5 3.5C21.5 4.88071 22.6193 6 24 6Z" class="fill-base-content"/>
-                        <path d="M38.5 12C39.8807 12 41 10.8807 41 9.5C41 8.11929 39.8807 7 38.5 7C37.1193 7 36 8.11929 36 9.5C36 10.8807 37.1193 12 38.5 12Z" class="fill-base-content"/>
-                        <path d="M44.5 26.5C45.8807 26.5 47 25.3807 47 24C47 22.6193 45.8807 21.5 44.5 21.5C43.1193 21.5 42 22.6193 42 24C42 25.3807 43.1193 26.5 44.5 26.5Z" class="fill-base-content"/>
-                        <path d="M38.5 41C39.8807 41 41 39.8807 41 38.5C41 37.1193 39.8807 36 38.5 36C37.1193 36 36 37.1193 36 38.5C36 39.8807 37.1193 41 38.5 41Z" class="fill-base-content"/>
-                        <path d="M24 47C25.3807 47 26.5 45.8807 26.5 44.5C26.5 43.1193 25.3807 42 24 42C22.6193 42 21.5 43.1193 21.5 44.5C21.5 45.8807 22.6193 47 24 47Z" class="fill-base-content"/>
-                        <path d="M9.5 41C10.8807 41 12 39.8807 12 38.5C12 37.1193 10.8807 36 9.5 36C8.11929 36 7 37.1193 7 38.5C7 39.8807 8.11929 41 9.5 41Z" class="fill-base-content"/>
-                        <path d="M3.5 26.5C4.88071 26.5 6 25.3807 6 24C6 22.6193 4.88071 21.5 3.5 21.5C2.11929 21.5 1 22.6193 1 24C1 25.3807 2.11929 26.5 3.5 26.5Z" class="fill-base-content"/>
-                        <path d="M9.5 12C10.8807 12 12 10.8807 12 9.5C12 8.11929 10.8807 7 9.5 7C8.11929 7 7 8.11929 7 9.5C7 10.8807 8.11929 12 9.5 12Z" class="fill-base-content"/>
-                    </svg>
-                </div>
-            </label>
+        <!--Navbar lg--> 
+        <nav class="navbar bg-base-100 border border-base-300 rounded-2xl hidden lg:flex">
             
-
-            <!--Say hello button-->
-            <button class="btn btn-primary">Say hello</button>
-        </div>
-    </nav>
-
-    <!--Main content-->
-    <main class="relative">
-
-        <!--Hero block-->
-        <div class="hero">
-            <div class="hero-content flex-col lg:flex-row">
-                <img src="/assets/mb picture.png" alt="" class="max-w-sm rounded-lg bg-accent">
-                <div>
-                    <h1 class="text-5xl font-bold">Hi I’m Mirco</h1>
-                    <p class="py-6">
-                        UX designer and product owner
-                    </p>
-                    <div>
-                        <button class="btn btn-circle btn-sm"><svg width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.0264 2.20543C11.2914 2.91848 9.27275 5.4053 9.27275 8.36365C9.27275 11.8782 12.1218 14.7273 15.6363 14.7273C18.5947 14.7273 21.0816 12.7086 21.7945 9.97365C21.9293 10.628 22 11.3057 22 12C22 17.5229 17.5229 22 12 22C6.47715 22 2 17.5229 2 12C2 6.47715 6.47715 2 12 2C12.6943 2 13.372 2.07075 14.0264 2.20543Z"
-                                    fill="#1F2937" stroke="#1F2937" stroke-width="2" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <button class="btn btn-circle btn-sm"><svg width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.0264 2.20543C11.2914 2.91848 9.27275 5.4053 9.27275 8.36365C9.27275 11.8782 12.1218 14.7273 15.6363 14.7273C18.5947 14.7273 21.0816 12.7086 21.7945 9.97365C21.9293 10.628 22 11.3057 22 12C22 17.5229 17.5229 22 12 22C6.47715 22 2 17.5229 2 12C2 6.47715 6.47715 2 12 2C12.6943 2 13.372 2.07075 14.0264 2.20543Z"
-                                    fill="#1F2937" stroke="#1F2937" stroke-width="2" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <button class="btn btn-circle btn-sm"><svg width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.0264 2.20543C11.2914 2.91848 9.27275 5.4053 9.27275 8.36365C9.27275 11.8782 12.1218 14.7273 15.6363 14.7273C18.5947 14.7273 21.0816 12.7086 21.7945 9.97365C21.9293 10.628 22 11.3057 22 12C22 17.5229 17.5229 22 12 22C6.47715 22 2 17.5229 2 12C2 6.47715 6.47715 2 12 2C12.6943 2 13.372 2.07075 14.0264 2.20543Z"
-                                    fill="#1F2937" stroke="#1F2937" stroke-width="2" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <button class="btn btn-circle btn-sm"><svg width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M14.0264 2.20543C11.2914 2.91848 9.27275 5.4053 9.27275 8.36365C9.27275 11.8782 12.1218 14.7273 15.6363 14.7273C18.5947 14.7273 21.0816 12.7086 21.7945 9.97365C21.9293 10.628 22 11.3057 22 12C22 17.5229 17.5229 22 12 22C6.47715 22 2 17.5229 2 12C2 6.47715 6.47715 2 12 2C12.6943 2 13.372 2.07075 14.0264 2.20543Z"
-                                    fill="#1F2937" stroke="#1F2937" stroke-width="2" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                    </div>
+                <!--Nav start-->
+                <div class="navbar-start">
+                    <!--Index Button-->
+                    <button class="btn btn-ghost text-xl">
+                        <a href="index.html">
+                            Mirco Barbero
+                        </a>
+                    </button>
                 </div>
+
+                <!--Nav center-->
+                <div class="navbar-center">
+                    <ul class="menu menu-horizontal menu-lg rounded-box">
+                        <li><a  href="index.html">Who am I</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a  href="projects.html">Projects</a></li>
+                        <li class="indicator"><a class="underline" href="writings.html">Writings <span class="badge badge-sm badge-warning indicator-item">Out soon</span></a></li>
+                    </ul>
+                </div>
+
+                <!--Nav end-->
+                <div class="navbar-end gap-4 lg:pr-4">
+                    <label class="btn btn-ghost btn-square swap swap-flip">
+                        <input type="checkbox"/>
+                            <!--moon icon-->
+            
+                            <svg id="theme-toggle-dark-icon" class="w-10 h-10 fill-base-content swap-off" data-set-theme="dark" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M11.675 2.015a.998.998 0 0 0-.403.011C6.09 2.4 2 6.722 2 12c0 5.523 4.477 10 10 10 4.356 0 8.058-2.784 9.43-6.667a1 1 0 0 0-1.02-1.33c-.08.006-.105.005-.127.005h-.001l-.028-.002A5.227 5.227 0 0 0 20 14a8 8 0 0 1-8-8c0-.952.121-1.752.404-2.558a.996.996 0 0 0 .096-.428V3a1 1 0 0 0-.825-.985Z" clip-rule="evenodd"/>
+                            </svg>
+            
+            
+                            <!--sun icon-->
+            
+                            <svg id="theme-toggle-light-icon" class="w-10 h-10 fill-base-content swap-on" data-set-theme="light" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M13 3a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0V3ZM6.343 4.929A1 1 0 0 0 4.93 6.343l1.414 1.414a1 1 0 0 0 1.414-1.414L6.343 4.929Zm12.728 1.414a1 1 0 0 0-1.414-1.414l-1.414 1.414a1 1 0 0 0 1.414 1.414l1.414-1.414ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm-9 4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H3Zm16 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2h-2ZM7.757 17.657a1 1 0 1 0-1.414-1.414l-1.414 1.414a1 1 0 1 0 1.414 1.414l1.414-1.414Zm9.9-1.414a1 1 0 0 0-1.414 1.414l1.414 1.414a1 1 0 0 0 1.414-1.414l-1.414-1.414ZM13 19a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0v-2Z" clip-rule="evenodd"/>
+                            </svg>
+            
+                    </label>
+                    <!--Say hello button-->
+                    <button class="btn btn-primary">Say hello</button>
+                    
+                </div>
+        </nav>
+        
+            
+    </div>
+
+     <!--Main content-->
+
+    <!--Experience list-->
+    <section class="flex flex-col justify-between min-h-[calc(100svh-82px)] lg:min-h-[calc(100svh-86px)] pt-10">
+        <div class="flex flex-col p-4 gap-6 w-full max-w-screen-md  mx-auto">
+            <!--Title and subtitle -->
+            <div class="flex flex-col gap-2 px-6">
+                <h1 class="font-semibold text-2xl font-sans">
+                    Out soon
+                </h1>
+                <p class="text-lg">
+                    
+                </p>
+            </div>
+
+            <!--Grid element-->
+            <div class="pt-10 flex justify-center">
+
+                <svg class="w-1/2 h-1/2" xmlns="http://www.w3.org/2000/svg" width="575.92739" height="623.45484" viewBox="0 0 575.92739 623.45484" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <polygon points="216.58035 539.9325 429.58035 530.45484 548.58038 623.45484 147.58035 623.45484 216.58035 539.9325" fill="#f2f2f2"/><g><path d="M386.80707,91.60808h0c-8.69516-6.16032-20.65326-4.67169-27.57294,3.43229l-35.71313,41.82619-80.00739-10.69311-14.8103-2.96184c-3.20844-2.83478-7.04875-4.86034-11.20053-5.90578-10.34741-2.7596-20.15894,.34329-21.91386,6.92913-1.75453,6.58527,5.21106,14.15898,15.56265,16.91806,4.12016,1.15828,8.45738,1.31371,12.64993,.45235l6.03453,1.52776,90.69528,33.29387,66.95804-51.70844c10.95728-8.46163,10.61407-25.10721-.68228-33.11046v-.00003Z" fill="#ffb6b6"/><g><polygon points="369.81851 66.43944 356.76099 43.21849 335.61984 62.03794 341.03992 93.11251 369.81851 66.43944" fill="#ffb6b6"/><circle cx="321.50146" cy="40.06634" r="32.77515" fill="#ffb6b6"/><path d="M329.45651,50.62064l-18.93283-3.31782-2.70486-10.75806s-16.83813,23.69092-23.2338,2.27172C278.18933,17.39729,307.91974-.22841,316.7514,.05061c8.83167,.27902,34.74286-2.79216,39.32391,14.50309,4.58105,17.29525,3.80731,36.18941,3.80731,36.18941l-10.2782,.73613s-11.16672-15.91203-14.27551-12.65086c-3.1088,3.26116-5.87244,11.79226-5.87244,11.79226h.00003Z" fill="#2f2e41"/></g><path d="M287.71594,336.91297l-8.56723,78.5329,37.59833,114.13776c1.56683,4.75647,2.01355,9.81061,1.30533,14.76813h0c-1.14468,8.01263-5.2373,15.31006-11.47748,20.46503l-21.21533,17.5257c-1.18683,.98047-1.73889,2.53375-1.43698,4.04327h0c.49628,2.48138,3.06583,3.95654,5.45889,3.13391l26.99176-9.27838c9.38748-3.22693,19.24536-4.87396,29.172-4.87396h4.98407c3.9501,0,7.15231-3.20221,7.15231-7.15228h0c0-.9342-.18301-1.85938-.53873-2.72327l-9.45636-22.96545-25.70166-121.36902,7.13934-41.40826-41.40826-42.83612v.00006Z" fill="#ffb6b6"/><path d="M346.25864,371.18186l7.13934,47.11972,18.56232,117.08539-7.13934,25.70166-29.65555,24.16376c-3.85718,3.14288-2.72961,9.30518,1.99057,10.87854h0c1.27542,.42517,2.65332,.43182,3.93283,.0191l42.29443-13.64337,11.47601-4.09857c5.10587-1.82355,8.51419-6.65991,8.51419-12.08167h0c0-1.57458-.28986-3.13574-.8551-4.60541l-6.28424-16.33905-6.42542-126.36655,.71393-46.40579-44.26398-1.42786v.00009Z" fill="#ffb6b6"/><path d="M309.21347,252.84986l-7.72012-83.81769c-1.53036-16.61713,2.47855-33.57309,11.28842-47.74721l19.47705-31.24583,37.58548-28.91159,16.51184,14.26058c9.65417,8.33715,14.2334,21.31208,11.95145,33.86312l-16.34662,89.90706,2.89828,34.77925-75.64575,18.91231h-.00003Z" fill="#76c1da"/><path d="M400.54211,536.81482h-29.89465l-.10388-.58984-30.20071-170.66818-16.90646,52.07126,21.51569,104.71283-28.38589,7.46985-43.4357-104.75885c-3.50833-8.46124-4.21249-18.01291-1.98074-26.89807l37.2355-148.24754,75.89886-17.28923,.27121,.22729c33.80106,28.28271,10.12338,66.87704,8.11612,70.00052l7.87073,233.96997h-.00006Z" fill="#2f2e41"/><path d="M573.547,305.21396c-2.19861,5.96875-5.79688,11.18033-10.38068,15.29245-4.58344,4.12674-10.15198,7.13934-16.32043,8.6962-40.57996,10.23773-137.88959,26.78653-245.83636-12.55103-16.73459-6.11169-33.58356-11.95145-50.60365-17.23416-29.27135-9.0957-55.30141-18.83423-78.4189-28.84326-10.62328-4.59805-20.61838-9.23862-30.02817-13.92175-12.69362-6.29713-24.34492-12.6368-34.99712-18.93393-10.48035-6.16815-20.00448-12.29376-28.65711-18.29111C17.71975,177.44811,0,142.00861,0,142.00861c0,0,34.7545-17.14839,109.28928-20.01877,10.69474-.41414,22.20345-.52848,34.55441-.27121,12.57962,.27121,26.01576,.94262,40.33734,2.12716,10.63757,.85686,21.74644,2.01352,33.35521,3.46998,38.20949,4.81209,81.75954,13.03629,130.86421,26.11581,167.00372,44.46408,212.26715,95.78168,224.3186,123.15384,3.98383,9.06711,4.255,19.3334,.82794,28.62854Z" fill="#e6e6e6"/><path d="M368.39621,79.53718h0c-10.65536-.13735-19.65622,7.8749-20.75433,18.47447l-5.66687,54.70599-71.94293,36.60243-13.87503,5.96666c-4.25049-.51314-8.562-.00139-12.5737,1.49409-10.08572,3.60036-16.40308,11.72346-14.11034,18.14191,2.29276,6.41776,12.32619,8.70039,22.41505,5.09724,4.0497-1.38464,7.70898-3.71819,10.67209-6.80679l5.83557-2.16692,83.83585-21.55695c6.05762-1.55762,10.89038-6.1178,12.79666-12.07491l22.72089-71.00292c4.21948-13.18549-5.50998-26.69588-19.35294-26.87437l.00003,.00005Z" fill="#ffb6b6"/><path d="M143.84367,121.71862l-36.88201,115.99986c-10.48035-6.16815-20.00448-12.29376-28.65711-18.29111l30.98472-97.43753c10.69474-.41414,22.20347-.52848,34.55441-.27122Z" fill="#3f3d56"/><path d="M217.53622,127.31578l-45.54929,143.25838c-10.62328-4.59805-20.61838-9.23862-30.02817-13.92175l42.22223-132.80661c10.63757,.85686,21.74644,2.01352,33.35521,3.46998h.00002Z" fill="#3f3d56"/></g><path d="M380.92563,168.86345l-47.948-10.14848,14.48788-68.44855c1.18454-5.59714,4.47812-10.39808,9.2735-13.51876,4.79465-3.11928,10.51801-4.18182,16.11584-3.00076l6.03986,1.27867c11.55405,2.44579,18.9639,13.83529,16.51883,25.38933l-14.48788,68.44854-.00003,.00002Z" fill="#76c1da"/>
+                </svg>
+                
+                
 
             </div>
-        </div>    
-        
-    </main>
+        </div>
+    
 
+
+        <!--Footer's svg-->
+        <svg class="max-h-20 w-full bg-base-100 border-l-2 border-t-2 border-r-2 border-base-content rounded-t-2xl" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id='simpleWaves' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1.5) rotate(0)'>
+                    <rect x='0' y='0' width='100%' height='100%' class="fill-sky-200" />
+                    <path
+                        d='M45.69 13.342c-1.677.945-3.557 1.6-5.48 1.588-1.922-.012-3.795-.691-5.462-1.653-1.668-.962-3.156-2.202-4.637-3.435-1.48-1.232-2.97-2.47-4.641-3.427-1.67-.957-3.547-1.628-5.47-1.628-1.923 0-3.8.67-5.47 1.628-1.67.956-3.161 2.195-4.641 3.427-1.48 1.233-2.97 2.473-4.637 3.435-1.667.962-3.54 1.641-5.463 1.653-1.922.012-3.802-.643-5.478-1.588v13.316c1.676-.945 3.556-1.6 5.478-1.588 1.923.012 3.796.691 5.463 1.653 1.668.962 3.156 2.202 4.637 3.435 1.48 1.232 2.97 2.47 4.641 3.427 1.67.957 3.547 1.628 5.47 1.628 1.923 0 3.8-.67 5.47-1.628 1.67-.956 3.161-2.195 4.641-3.427 1.48-1.233 2.97-2.473 4.637-3.435 1.667-.962 3.54-1.641 5.463-1.653 1.922-.012 3.802.643 5.478 1.588z'
+                        stroke-width='1' stroke='none' fill='hsla(231, 48%, 48%, 1)' />
+                </pattern>
+            </defs>
+            
+            <rect width="100%" height="100%"  fill="url(#simpleWaves)" />
+        
+        </svg>
+    </section>
 
 </body>
 

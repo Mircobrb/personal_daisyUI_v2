@@ -1,16 +1,10 @@
 
-
-
-# Mobile
-
-Mobile
-- [ ] fix font size and elements dimension for mobile
-
 # MAIN PAGE
 
 - [ ] fix assets folders
-- [ ] update friends section (make them full color on mobile)
+- [ ] make friends elements full color on mobile
 - [ ] fix theme change to show correct icon
+- [ ] fix spacing from top hero block
 
 # PROJECTS PAGE
 
@@ -21,8 +15,16 @@ Mobile
 - [ ] surfboard shaping
 - [ ] this website
 
+
 # WRITINGS PAGE
 - [ ] list of writings in vertical orientation, like books staked
+
+# Mobile
+
+Mobile
+- [ ] fix font size and elements dimension for mobile
+
+
 
 # SAY HELLO
 
@@ -36,3 +38,4 @@ Mobile
 - [ ] add date of experience (just year)
 - [ ] fix lead text in modal for mobile
 - [ ] refine content in modals (text and imgs)
+- [ ] fix alignment of card titles
