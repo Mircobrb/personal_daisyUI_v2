@@ -10,7 +10,7 @@
 # PROJECTS PAGE
 
 - [ ] card element
-- [ ] modal
+- [ ] add padding from top of title
 - [ ] daisyui contribution
 - [ ] thinkertoys website
 - [ ] surfboard shaping
@@ -39,4 +39,6 @@ Mobile
 - [ ] add date of experience (just year)
 - [ ] fix lead text in modal for mobile
 - [ ] refine content in modals (text and imgs)
-- [ ] fix alignment of card titles
+- [ ] fix alignment of card titles and page title
+- [ ] add padding on bottom from svg
+- [ ] fix card dimension to have it a square and not rectangle
