@@ -1,7 +1,6 @@
 # PROJECTS PAGE
 - [ ] add modal with carousel for zoom on imgs
 - [ ] add padding from top of title
-- [ ] daisyui contribution
 - [ ] thinkertoys website
 - [ ] surfboard shaping
 - [ ] this website
@@ -12,6 +11,7 @@
 - [ ] fix assets folders
 - [ ] make friends elements full color on mobile
 - [ ] fix theme change to show correct icon
+    - [ ] try with other element like toggle or select
 - [ ] fix spacing from top hero block
 
 
@@ -22,10 +22,6 @@
 # Mobile
 - [ ] fix font size and elements dimension for mobile
 
-
-
-# SAY HELLO
-- [ ] add contact to the button
 
 
 # EXPERIENCE PAGE

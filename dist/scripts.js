@@ -20,18 +20,17 @@ async function copyContent() {
 
 
 // Theme icon
-// document.addEventListener('DOMContentLoaded', function () {
-//   const themeIcon = document.getElementById('theme-icon');
-//   const sunIcon = document.getElementById('sun-icon');
-//   const moonIcon = document.getElementById('moon-icon');
-  
-//   const theme = document.documentElement.getAttribute('data-set-theme');
-  
-//   if (theme === 'dark') {
-//       sunIcon.classList.add('hidden');
-//       moonIcon.classList.remove('hidden');
-//   } else {
-//       moonIcon.classList.add('hidden');
-//       sunIcon.classList.remove('hidden');
-//   }
-// });
+// Get the checkbox element
+const themeCheckbox = document.getElementById('theme-checkbox');
+
+// // Save the checkbox state in localStorage
+themeCheckbox.addEventListener('change', () => {
+    localStorage.setItem('theme-checkbox-checked', themeCheckbox.checked);
+});
+// // On page load, retrieve the state from localStorage
+const isChecked = localStorage.getItem('theme-checkbox-checked') === 'true';
+
+// // Set the checkbox state based on the stored value
+document.getElementById('theme-checkbox').checked = isChecked;
+
+
