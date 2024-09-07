@@ -10,8 +10,6 @@
 - [ ] change copy, with something more interesting, take out the "it has been a long journey, add suggestions to explore othe pages
 - [ ] fix assets folders
 - [ ] make friends elements full color on mobile
-- [ ] fix theme change to show correct icon
-    - [ ] problem on projects page
 - [ ] fix spacing from top hero block
 
 
@@ -38,3 +36,7 @@
 
 # CV
 - [ ] change intro to add something about tech design and business experience ('I am a passionate designer that loves solving problems etc.... and i enjoy agile mindset)
+
+# THEME CHANGER
+- [ ] fix theme change to show correct icon (improve js script)
+- [ ] remove flick when reloading page
