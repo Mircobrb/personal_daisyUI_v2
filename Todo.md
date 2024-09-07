@@ -11,7 +11,7 @@
 - [ ] fix assets folders
 - [ ] make friends elements full color on mobile
 - [ ] fix theme change to show correct icon
-    - [ ] try with other element like toggle or select
+    - [ ] problem on projects page
 - [ ] fix spacing from top hero block
 
 
