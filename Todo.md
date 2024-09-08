@@ -7,7 +7,7 @@
 
 
 # MAIN PAGE
-- [ ] change copy, with something more interesting, take out the "it has been a long journey, add suggestions to explore othe pages
+- [ ] change copy, with something more interesting
 - [ ] fix assets folders
 - [ ] make friends elements full color on mobile
 - [ ] fix spacing from top hero block

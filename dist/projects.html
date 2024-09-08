@@ -129,34 +129,36 @@
      <!--Main content-->
 
     <main class="flex flex-col justify-between min-h-[calc(100svh-82px)] lg:min-h-[calc(100svh-86px)] pt-10">
-        <div class="flex flex-col p-4 gap-6 w-full max-w-screen-md  mx-auto">
+        
+        
+        <section class="flex flex-col px-4 py-10 gap-20 w-full max-w-screen-md mx-auto">
            
             <!--Title and subtitle -->
             <div class="flex flex-col gap-2">
                 <h1 class="font-semibold text-2xl font-sans">
                     A list of my recent passions and experiments
                 </h1>
-                <p class="text-lg">
+                <!-- <p class="text-lg">
                     
-                </p>
+                </p> -->
             </div>
 
             <!--Grid element-->
-            <div class="pt-10 flex flex-col justify-center gap-20">
+            <div class="flex flex-col justify-center gap-20">
 
                 <!--Project 1 -->
-                <article class="rounded-box relative flex flex-col gap-6">
+                <article class="relative grid grid-cols-1 gap-6">
 
                     <!-- Title and img -->
-                    <div class="grid grid-cols-2 gap-8">
+                    <div class="flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 gap-6">
                         
                         <div class="flex flex-col gap-6">
-                            <h2 class="text-lg font-black sm:text-2xl xl:text-4xl">
-                                DaisyUI contribution
+                            <h2 class="text-2xl font-black xl:text-4xl">
+                                DaisyUI figma kit
                             </h2>
 
-                            <p>
-                                Description that goes on some lines but not too long
+                            <p class="text-lg">
+                                A collaboration to the DaisyUI library
                             </p>
 
                             <div class="flex items-center justify-start gap-4">
@@ -168,12 +170,7 @@
                                         alt="react">
                                 </a>
 
-                                <a href="https://www.figma.com/" class="lg:border-base-content/10 tooltip grid place-content-center rounded-full border-dashed lg:border lg:p-2 xl:p-3" data-tip="Figma">
-                                    <img class="aspect-square w-5 xl:w-6" src="assets/projects/Figma-Icon.svg"
-                                        alt="react">
-                                </a>
                             </div>
-
                             
                         </div>
                         
@@ -205,28 +202,46 @@
                     </div>
 
                     <!-- Description -->
-                    <div class="prose prose-lg max-w-full">
+                    <div class="prose prose-lg min-w-full">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            While searching for a component library to use in my side projects I stumbled upon <a href="https://daisyui.com/">DaisyUI</a>. One of the most poular free and open-source <a href="https://tailwindcss.com/">Tailwind</a> libraries.
                             <br>
-                            Nullam pellentesque a nulla ut volutpat. Cras interdum vitae lorem sed cursus. Maecenas eget convallis metus. Ut urna orci, egestas ut semper quis, molestie id leo. Pellentesque viverra mauris id varius euismod. Nullam leo diam, fringilla at tortor quis, pulvinar imperdiet ipsum. Integer et lacus massa. Nam ornare massa non ex vestibulum pulvinar. Maecenas condimentum dui nibh, in tempus turpis interdum vitae. Pellentesque ut mi libero.
+                            Being passionate about open-source collaboration and the since the community was looking for a <code>Figma</code> file to use, I volunteered to take the task. 
+                            <br>
+                            I set up a first <strong>UI kit</strong> on the Figma community and later organised with other contributors the release of updated versions.
+                            <br>
+                            After seeing the community's great interest, we discussed with the creator of DaisyUI for a more structured <strong>Design System</strong>, which is currently on the way.
+
+                            <!-- //TODO - img of the UI kits on figma community -->
                         </p>
+
+                        <!-- //NOTE - maybe some stats of the project -->
+                        <!-- <div class="flex flex-wrap">
+                            <div class="stat">
+                                <div class="stat-title">Total downloads</div>
+                                <div class="stat-value">&gt;20k</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-title">Total downloads</div>
+                                <div class="stat-value">&gt;20k</div>
+                            </div>
+                        </div> -->
                     </div>
                 </article>
 
-                <!--Project 1 -->
-                <article class="rounded-box relative flex flex-col gap-6">
+                <!--Project 2 -->
+                <article class="relative grid grid-cols-1 gap-6">
 
                     <!-- Title and img -->
-                    <div class="grid grid-cols-2 gap-8">
+                    <div class="flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 gap-6">
                         
                         <div class="flex flex-col gap-6">
-                            <h2 class="text-lg font-black sm:text-2xl xl:text-4xl">
+                            <h2 class="text-2xl font-black xl:text-4xl">
                                 Personal website
                             </h2>
 
-                            <p>
-                                Description that goes on some lines but not too long
+                            <p class="text-lg">
+                                My place on the Web
                             </p>
 
                             <div class="flex items-center justify-start gap-4">
@@ -238,12 +253,7 @@
                                         alt="react">
                                 </a>
 
-                                <a href="https://www.figma.com/" class="lg:border-base-content/10 tooltip grid place-content-center rounded-full border-dashed lg:border lg:p-2 xl:p-3" data-tip="Figma">
-                                    <img class="aspect-square w-5 xl:w-6" src="assets/projects/Figma-Icon.svg"
-                                        alt="react">
-                                </a>
                             </div>
-
                             
                         </div>
                         
@@ -267,7 +277,7 @@
                             </div>
                             <img loading="lazy" class="bg-base-300 aspect-[4/3] object-cover object-center"
                                 alt="DaisyUI"
-                                src="assets/projects/mircoBarberoWebsiteCover.png">
+                                src="assets/projects/daisyUICover.png">
                         </a>
 
                         
@@ -275,18 +285,38 @@
                     </div>
 
                     <!-- Description -->
-                    <div class="prose prose-lg max-w-full">
+                    <div class="prose prose-lg min-w-full">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            While searching for a component library to use in my side projects I stumbled upon <a href="https://daisyui.com/">DaisyUI</a>. One of the most poular free and open-source <a href="https://tailwindcss.com/">Tailwind</a> libraries.
                             <br>
-                            Nullam pellentesque a nulla ut volutpat. Cras interdum vitae lorem sed cursus. Maecenas eget convallis metus. Ut urna orci, egestas ut semper quis, molestie id leo. Pellentesque viverra mauris id varius euismod. Nullam leo diam, fringilla at tortor quis, pulvinar imperdiet ipsum. Integer et lacus massa. Nam ornare massa non ex vestibulum pulvinar. Maecenas condimentum dui nibh, in tempus turpis interdum vitae. Pellentesque ut mi libero.
+                            Being passionate about open-source collaboration and the since the community was looking for a <code>Figma</code> file to use, I volunteered to take the task. 
+                            <br>
+                            I set up a first <strong>UI kit</strong> on the Figma community and later organised with other contributors the release of updated versions.
+                            <br>
+                            After seeing the community's great interest, we discussed with the creator of DaisyUI for a more structured <strong>Design System</strong>, which is currently on the way.
+
+                            <!-- //TODO - img of the UI kits on figma community -->
                         </p>
+
+                        <!-- //NOTE - maybe some stats of the project -->
+                        <!-- <div class="flex flex-wrap">
+                            <div class="stat">
+                                <div class="stat-title">Total downloads</div>
+                                <div class="stat-value">&gt;20k</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-title">Total downloads</div>
+                                <div class="stat-value">&gt;20k</div>
+                            </div>
+                        </div> -->
                     </div>
                 </article>
 
+                
+
 
             </div>
-        </div>
+        </section>
     
 
 
