@@ -11,6 +11,7 @@
 - [ ] fix assets folders
 - [ ] make friends elements full color on mobile
 - [ ] fix spacing from top hero block
+- [ ] add parallax effect for svg footer
 
 
 # WRITINGS PAGE
@@ -31,7 +32,8 @@
 - [ ] fix alignment of card titles and page title
 - [ ] add padding on bottom from svg
 - [ ] fix card dimension to have it a square and not rectangle
-- [ ] try close button from daisyui documentation
+- [ ] try modal close button from daisyui documentation
+- [ ] add form control to close modals when click outside
 
 
 # CV
