@@ -2,7 +2,7 @@
 
 async function copyContent() {
     try {
-      await navigator.clipboard.writeText('https://mircobarbero.netlify.app/');
+      await navigator.clipboard.writeText('https://mircobarbero.com/');
       console.log('Content copied to clipboard');
       /* Resolved - text copied to clipboard successfully */
     } catch (err) {

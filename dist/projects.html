@@ -173,30 +173,57 @@
                             </div>
                             
                         </div>
-                        
-                        <a target="_blank" rel="noopener noreferrer"
-                            class="rounded-box border-base-200 group w-full relative block aspect-[4/3] overflow-hidden border object-cover"
-                            href="assets/projects/daisyUICover.png">
+
+                        <!-- img button -->
+                        <button class="rounded-box border-base-200 group w-full relative block aspect-[4/3] overflow-hidden border object-cover" onclick="daisyUI_modal.showModal()">
+                            
+                            <!-- img description -->
+                            <img loading="lazy" class="bg-base-300 aspect-[4/3] object-cover object-center" alt="DaisyUI" src="assets/projects/daisyUICover.png">
                             <!-- Zoom icon-->
                             <div class="absolute inset-0 z-[1] grid place-content-center bg-black/50 opacity-0 transition-all duration-500 group-hover:scale-150 group-hover:opacity-100">
-                                <svg class="text-white" width="32" height="32" viewBox="0 0 48 48" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M21 38C30.3888 38 38 30.3888 38 21C38 11.6112 30.3888 4 21 4C11.6112 4 4 11.6112 4 21C4 30.3888 11.6112 38 21 38Z"
-                                        fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
-                                    <path d="M21 15L21 27" stroke="currentColor" stroke-width="4" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path d="M15.0156 21.0156L27 21" stroke="currentColor" stroke-width="4" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path d="M33.2216 33.2217L41.7069 41.707" stroke="currentColor" stroke-width="4" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                </svg>
-                            </div>
-                            <img loading="lazy" class="bg-base-300 aspect-[4/3] object-cover object-center"
-                                alt="DaisyUI"
-                                src="assets/projects/daisyUICover.png">
-                        </a>
 
+                                <svg class="w-6 h-6 fill-gray-50" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M21.707 21.707a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 0 1 1.414-1.414l3.5 3.5a1 1 0 0 1 0 1.414ZM2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm9-3a1 1 0 1 0-2 0v2H7a1 1 0 0 0 0 2h2v2a1 1 0 1 0 2 0v-2h2a1 1 0 1 0 0-2h-2V7Z" clip-rule="evenodd"/>
+                                    </svg>
+                                    
+                            </div>
+                            
+                        </button>
+                        
+                        <!-- DaisyUI modal -->
+                        <dialog id="daisyUI_modal" class="modal">
+                        <div class="modal-box max-w-screen-lg p-4">
+                            <form method="dialog">
+                            <button class="btn btn-sm btn-circle absolute right-2 top-2 z-50">✕</button>
+                            </form>
+                            <!-- carousel -->
+                            <div class="carousel carousel-center w-full rounded-box space-x-4">
+                                <div class="carousel-item w-4/5">
+                                  <img
+                                    src="assets/projects/daisyUICover.png"
+                                    class="rounded-box object-cover border border-base-300" />
+                                </div>
+                                <div class="carousel-item w-4/5">
+                                  <img
+                                    src="assets/projects/daisyuiFigmaCommunity.png"
+                                    class="rounded-box object-cover object-center border border-base-300" />
+                                </div>
+                                <div class="carousel-item w-4/5">
+                                  <img
+                                    src="assets/projects/daisyuiAccordion.png"
+                                    class="rounded-box object-cover object-left border border-base-300" />
+                                </div>
+                                <div class="carousel-item w-4/5">
+                                  <img
+                                    src="assets/projects/daisyuiNavigation.png"
+                                    class="rounded-box object-cover border border-base-300" />
+                                </div>
+                            </div>
+                        </div>
+                        <form method="dialog" class="modal-backdrop">
+                            <button>close</button>
+                        </form>
+                        </dialog>
                         
                     
                     </div>
