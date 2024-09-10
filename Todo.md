@@ -1,9 +1,9 @@
 # PROJECTS PAGE
-- [ ] add modal with carousel for zoom on imgs
 - [ ] add padding from top of title
 - [ ] thinkertoys website
 - [ ] surfboard shaping
 - [ ] this website
+- [ ] bluebottle
 
 
 # MAIN PAGE
