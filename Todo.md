@@ -1,5 +1,6 @@
 # PROJECTS PAGE
 - [ ] add padding from top of title
+- [ ] fix carousel modal height on mobile
 - [ ] thinkertoys website
 - [ ] surfboard shaping
 - [ ] this website
