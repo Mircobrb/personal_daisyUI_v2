@@ -15,6 +15,7 @@
 - [ ] make friends elements full color on mobile
 - [ ] fix spacing from top hero block
 - [ ] add parallax effect for svg footer
+- [ ] fix copy, add scrum and kanban names in the agile mindset
 
 
 # WRITINGS PAGE
