@@ -5,6 +5,8 @@
 - [ ] surfboard shaping
 - [ ] this website
 - [ ] bluebottle
+- [ ] innovation olympics
+- [ ] momento
 
 
 # MAIN PAGE
