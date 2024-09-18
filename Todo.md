@@ -15,7 +15,8 @@
 - [ ] fix spacing from top hero block
 - [ ] add parallax effect for svg footer
 - [ ] fix copy, add scrum and kanban names in the agile mindset
-- [ ] change cv
+- [ ] change cv with new version
+- [ ] add tooltips on social buttons
 
 
 # WRITINGS PAGE
