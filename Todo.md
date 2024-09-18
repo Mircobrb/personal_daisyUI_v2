@@ -28,14 +28,16 @@
 
 # EXPERIENCE PAGE
 - [ ] enlarge img on click
-- [ ] add description of companies (cerved group nr1 data provider in italy)
-- [ ] add date of experience (just year)
-- [ ] fix lead text in modal for mobile
+- [ ] add modal intro section with details of the experience
+        add description of companies (cerved group nr1 data provider in italy)
+        add date of experience (just year)
+        fix lead text in modal for mobile
+        add different color
+        add skills and top points of the experience
 - [ ] refine content in modals (text and imgs)
 - [ ] fix alignment of card titles and page title
 - [ ] add padding on bottom from svg
 - [ ] fix card dimension to have it a square and not rectangle
-- [ ] try modal close button from daisyui documentation
 - [ ] add form control to close modals when click outside
 - [ ] make body larger on md and up vieports
 

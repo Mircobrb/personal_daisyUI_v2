@@ -5194,6 +5194,10 @@ details.collapse summary::-webkit-details-marker {
   height: 100%;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .max-h-20 {
   max-height: 5rem;
 }
@@ -5664,6 +5668,11 @@ details.collapse summary::-webkit-details-marker {
   stroke-width: 2;
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -5672,6 +5681,11 @@ details.collapse summary::-webkit-details-marker {
 .object-fill {
   -o-object-fit: fill;
      object-fit: fill;
+}
+
+.object-scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .object-top {
@@ -5687,6 +5701,11 @@ details.collapse summary::-webkit-details-marker {
 .object-left {
   -o-object-position: left;
      object-position: left;
+}
+
+.object-left-top {
+  -o-object-position: left top;
+     object-position: left top;
 }
 
 .p-0 {
@@ -6352,6 +6371,16 @@ details.collapse summary::-webkit-details-marker {
 
   .md\:rounded-full {
     border-radius: 9999px;
+  }
+
+  .md\:object-cover {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .md\:object-left-top {
+    -o-object-position: left top;
+       object-position: left top;
   }
 
   .md\:px-8 {
