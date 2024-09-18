@@ -6,12 +6,10 @@
 - [ ] bluebottle
 - [ ] innovation olympics
 - [ ] momento
-- [x] make body larger on md and up vieports
 
 
 # MAIN PAGE
 - [ ] change copy, with something more interesting
-- [ ] fix assets folders
 - [ ] make friends elements full color on mobile
 - [ ] fix spacing from top hero block
 - [ ] add parallax effect for svg footer
