@@ -131,7 +131,7 @@
     <main class="flex flex-col justify-between min-h-[calc(100svh-82px)] lg:min-h-[calc(100svh-86px)] pt-10">
         
         
-        <section class="flex flex-col px-4 py-10 gap-20 w-full max-w-screen-md mx-auto">
+        <section class="flex flex-col px-4 md:px-8 py-10 gap-20 w-full max-w-screen-lg mx-auto">
            
             <!--Title and subtitle -->
             <div class="flex flex-col gap-2">
@@ -150,15 +150,16 @@
                 <article class="relative grid grid-cols-1 gap-6">
 
                     <!-- Title and img -->
-                    <div class="flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 gap-6">
+                    <div class="flex flex-col md:grid md:grid-cols-12 md:grid-rows-1 gap-6">
                         
-                        <div class="flex flex-col gap-6">
-                            <h2 class="text-2xl font-black xl:text-4xl">
+                        <!-- Title -->
+                        <div class="flex flex-col justify-center gap-6 col-span-5">
+                            <h2 class="font-black text-4xl">
                                 DaisyUI figma kit
                             </h2>
 
                             <p class="text-lg">
-                                A collaboration to the DaisyUI library
+                                A contribution to the DaisyUI library
                             </p>
 
                             <div class="flex items-center justify-start gap-4">
@@ -175,7 +176,7 @@
                         </div>
 
                         <!-- img button -->
-                        <button class="rounded-box border-base-200 group w-full relative block aspect-[4/3] overflow-hidden border object-cover" onclick="daisyUI_modal.showModal()">
+                        <button class="rounded-box border-base-content group w-full relative block aspect-[4/3] overflow-hidden border object-cover col-span-7" onclick="daisyUI_modal.showModal()">
                             
                             <!-- img description -->
                             <img loading="lazy" class="bg-base-300 aspect-[4/3] object-cover object-center" alt="DaisyUI" src="assets/projects/daisyUICover.png">
@@ -192,31 +193,31 @@
                         
                         <!-- DaisyUI modal -->
                         <dialog id="daisyUI_modal" class="modal">
-                        <div class="modal-box max-w-screen-lg p-4">
+                        <div class="modal-box max-w-screen-lg bg-transparent shadow-none p-4 overflow-visible">
                             <form method="dialog">
-                            <button class="btn btn-sm btn-circle absolute right-2 top-2 z-50">✕</button>
+                            <button class="btn btn-sm btn-circle btn-neutral absolute right-0 top-0 z-50">✕</button>
                             </form>
                             <!-- carousel -->
                             <div class="carousel carousel-center w-full rounded-box space-x-4">
                                 <div class="carousel-item w-4/5">
-                                  <img
-                                    src="assets/projects/daisyUICover.png"
-                                    class="rounded-box object-cover border border-base-300" />
-                                </div>
-                                <div class="carousel-item w-4/5">
-                                  <img
-                                    src="assets/projects/daisyuiFigmaCommunity.png"
-                                    class="rounded-box object-cover object-center border border-base-300" />
-                                </div>
-                                <div class="carousel-item w-4/5">
-                                  <img
-                                    src="assets/projects/daisyuiAccordion.png"
+                                    <img
+                                        src="assets/projects/daisyUICover.png"
                                     class="rounded-box object-cover object-left border border-base-300" />
                                 </div>
                                 <div class="carousel-item w-4/5">
-                                  <img
+                                    <img
+                                    src="assets/projects/daisyuiLibrary.webp"
+                                    class="rounded-box object-cover object-left border border-base-300" />
+                                </div>
+                                <div class="carousel-item w-4/5">
+                                    <img
+                                    src="assets/projects/daisyuiTokens.webp"
+                                    class="rounded-box object-cover object-left border border-base-300" />
+                                </div>
+                                <div class="carousel-item w-4/5">
+                                    <img
                                     src="assets/projects/daisyuiNavigation.png"
-                                    class="rounded-box object-cover border border-base-300" />
+                                    class="rounded-box object-cover object-center border border-base-300" />
                                 </div>
                             </div>
                         </div>
@@ -225,7 +226,7 @@
                         </form>
                         </dialog>
                         
-                    
+                        
                     </div>
 
                     <!-- Description -->
@@ -237,7 +238,7 @@
                             <br>
                             I set up a first <strong>UI kit</strong> on the Figma community and later organised with other contributors the release of updated versions.
                             <br>
-                            After seeing the community's great interest, we discussed with the creator of DaisyUI for a more structured <strong>Design System</strong>, which is currently on the way.
+                            After seeing the community's great interest, we discussed with the creator of DaisyUI for a more structured <a href="https://daisyui.com/store/">DaisyUI library</a> that was realeased after half a year of work.
 
                             <!-- //TODO - img of the UI kits on figma community -->
                         </p>
