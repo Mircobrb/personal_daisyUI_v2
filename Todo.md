@@ -1,12 +1,12 @@
 # PROJECTS PAGE
 - [ ] add padding from top of title
-- [ ] fix carousel modal height on mobile
 - [ ] thinkertoys website
 - [ ] surfboard shaping
 - [ ] this website
 - [ ] bluebottle
 - [ ] innovation olympics
 - [ ] momento
+- [x] make body larger on md and up vieports
 
 
 # MAIN PAGE
@@ -16,6 +16,7 @@
 - [ ] fix spacing from top hero block
 - [ ] add parallax effect for svg footer
 - [ ] fix copy, add scrum and kanban names in the agile mindset
+- [ ] change cv
 
 
 # WRITINGS PAGE
@@ -38,10 +39,8 @@
 - [ ] fix card dimension to have it a square and not rectangle
 - [ ] try modal close button from daisyui documentation
 - [ ] add form control to close modals when click outside
+- [ ] make body larger on md and up vieports
 
-
-# CV
-- [ ] change intro to add something about tech design and business experience ('I am a passionate designer that loves solving problems etc.... and i enjoy agile mindset)
 
 # THEME CHANGER
 - [ ] fix theme change to show correct icon (improve js script)
