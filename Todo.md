@@ -6,6 +6,7 @@
 - [ ] bluebottle
 - [ ] innovation olympics
 - [ ] momento
+- [ ] fix carousel (remove modal just shows imgs)
 
 
 # MAIN PAGE
