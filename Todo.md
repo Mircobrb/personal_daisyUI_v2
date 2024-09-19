@@ -11,6 +11,7 @@
 # MAIN PAGE
 - [ ] make friends elements full color on mobile
 - [ ] add parallax effect for svg footer
+- [ ] change about me background color
 
 
 # WRITINGS PAGE
@@ -19,7 +20,6 @@
 
 # Mobile
 - [ ] fix font size and elements dimension for mobile
-
 
 
 # EXPERIENCE PAGE
@@ -35,7 +35,6 @@
 - [ ] add padding on bottom from svg
 - [ ] fix card dimension to have it a square and not rectangle
 - [ ] add form control to close modals when click outside
-- [ ] make body larger on md and up vieports
 
 
 # THEME CHANGER
