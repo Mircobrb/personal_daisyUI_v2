@@ -10,7 +10,7 @@
 
 
 # MAIN PAGE
-- [ ] change copy, with something more interesting
+- [ ] change copy, with something more interesting, add a "i ask WHY" questione the the about me section
 - [ ] make friends elements full color on mobile
 - [ ] fix spacing from top hero block
 - [ ] add parallax effect for svg footer
