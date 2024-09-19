@@ -1,5 +1,4 @@
 # PROJECTS PAGE
-- [ ] add padding from top of title
 - [ ] thinkertoys website
 - [ ] surfboard shaping
 - [ ] this website
@@ -10,13 +9,8 @@
 
 
 # MAIN PAGE
-- [ ] change copy, with something more interesting, add a "i ask WHY" questione the the about me section
 - [ ] make friends elements full color on mobile
-- [ ] fix spacing from top hero block
 - [ ] add parallax effect for svg footer
-- [ ] fix copy, add scrum and kanban names in the agile mindset
-- [ ] change cv with new version
-- [ ] add tooltips on social buttons
 
 
 # WRITINGS PAGE
