@@ -40,3 +40,8 @@
 # THEME CHANGER
 - [ ] fix theme change to show correct icon (improve js script)
 - [ ] remove flick when reloading page
+- [ ] change to nord theme changer
+- [ ] fix modal colors
+- [ ] fix hover colors
+- [ ] fix rubik font
+- [ ] fix navbar color
