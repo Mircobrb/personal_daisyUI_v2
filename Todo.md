@@ -34,8 +34,8 @@
 - [ ] refine content in modals (text and imgs)
 - [ ] fix alignment of card titles and page title
 - [ ] add padding on bottom from svg
-- [ ] fix card dimension to have it a square and not rectangle
 - [ ] add form control to close modals when click outside
+- [ ] mobile: fix modal titles too long
 
 
 # THEME CHANGER
