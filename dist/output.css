@@ -4678,6 +4678,14 @@ details.collapse summary::-webkit-details-marker {
   fill: #bae6fd;
 }
 
+.fill-aurora-nord13 {
+  fill: #ebcb8b;
+}
+
+.fill-frost-nord7 {
+  fill: #8fbcbb;
+}
+
 .stroke-base-200 {
   stroke: var(--fallback-b2,oklch(var(--b2)/1));
 }
