@@ -2166,18 +2166,6 @@ html {
     }
   }
 
-  .btn-outline.btn-secondary:hover {
-    --tw-text-opacity: 1;
-    color: var(--fallback-sc,oklch(var(--sc)/var(--tw-text-opacity)));
-  }
-
-  @supports (color: color-mix(in oklab, black, black)) {
-    .btn-outline.btn-secondary:hover {
-      background-color: color-mix(in oklab, var(--fallback-s,oklch(var(--s)/1)) 90%, black);
-      border-color: color-mix(in oklab, var(--fallback-s,oklch(var(--s)/1)) 90%, black);
-    }
-  }
-
   .btn-outline.btn-accent:hover {
     --tw-text-opacity: 1;
     color: var(--fallback-ac,oklch(var(--ac)/var(--tw-text-opacity)));
@@ -2624,10 +2612,6 @@ html {
     --btn-color: var(--fallback-p);
   }
 
-  .btn-secondary {
-    --btn-color: var(--fallback-s);
-  }
-
   .btn-accent {
     --btn-color: var(--fallback-a);
   }
@@ -2645,11 +2629,6 @@ html {
   .btn-outline.btn-primary.btn-active {
     background-color: color-mix(in oklab, var(--fallback-p,oklch(var(--p)/1)) 90%, black);
     border-color: color-mix(in oklab, var(--fallback-p,oklch(var(--p)/1)) 90%, black);
-  }
-
-  .btn-outline.btn-secondary.btn-active {
-    background-color: color-mix(in oklab, var(--fallback-s,oklch(var(--s)/1)) 90%, black);
-    border-color: color-mix(in oklab, var(--fallback-s,oklch(var(--s)/1)) 90%, black);
   }
 
   .btn-outline.btn-accent.btn-active {
@@ -2675,10 +2654,6 @@ html {
     --btn-color: var(--p);
   }
 
-  .btn-secondary {
-    --btn-color: var(--s);
-  }
-
   .btn-accent {
     --btn-color: var(--a);
   }
@@ -2686,12 +2661,6 @@ html {
   .btn-neutral {
     --btn-color: var(--n);
   }
-}
-
-.btn-secondary {
-  --tw-text-opacity: 1;
-  color: var(--fallback-sc,oklch(var(--sc)/var(--tw-text-opacity)));
-  outline-color: var(--fallback-s,oklch(var(--s)/1));
 }
 
 .btn-accent {
@@ -2742,16 +2711,6 @@ html {
 .btn-outline.btn-primary.btn-active {
   --tw-text-opacity: 1;
   color: var(--fallback-pc,oklch(var(--pc)/var(--tw-text-opacity)));
-}
-
-.btn-outline.btn-secondary {
-  --tw-text-opacity: 1;
-  color: var(--fallback-s,oklch(var(--s)/var(--tw-text-opacity)));
-}
-
-.btn-outline.btn-secondary.btn-active {
-  --tw-text-opacity: 1;
-  color: var(--fallback-sc,oklch(var(--sc)/var(--tw-text-opacity)));
 }
 
 .btn-outline.btn-accent {
@@ -4350,10 +4309,6 @@ details.collapse summary::-webkit-details-marker {
   width: 100%;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
 .min-w-full {
   min-width: 100%;
 }
@@ -4592,17 +4547,8 @@ details.collapse summary::-webkit-details-marker {
   border-top-width: 1px;
 }
 
-.border-r-\[2px\] {
-  border-right-width: 2px;
-}
-
 .border-dashed {
   border-style: dashed;
-}
-
-.border-amber-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(252 211 77 / var(--tw-border-opacity));
 }
 
 .border-base-200 {
@@ -4633,30 +4579,6 @@ details.collapse summary::-webkit-details-marker {
 .border-slate-600 {
   --tw-border-opacity: 1;
   border-color: rgb(71 85 105 / var(--tw-border-opacity));
-}
-
-.border-warning {
-  --tw-border-opacity: 1;
-  border-color: var(--fallback-wa,oklch(var(--wa)/var(--tw-border-opacity)));
-}
-
-.border-info {
-  --tw-border-opacity: 1;
-  border-color: var(--fallback-in,oklch(var(--in)/var(--tw-border-opacity)));
-}
-
-.border-neutral {
-  --tw-border-opacity: 1;
-  border-color: var(--fallback-n,oklch(var(--n)/var(--tw-border-opacity)));
-}
-
-.border-polarNight-nord0 {
-  --tw-border-opacity: 1;
-  border-color: rgb(46 52 64 / var(--tw-border-opacity));
-}
-
-.border-r-\[px\] {
-  border-right-color: px;
 }
 
 .bg-amber-300 {
@@ -4720,24 +4642,28 @@ details.collapse summary::-webkit-details-marker {
   fill: var(--fallback-a,oklch(var(--a)/1));
 }
 
+.fill-aurora-nord11 {
+  fill: #bf616a;
+}
+
 .fill-base-100 {
   fill: var(--fallback-b1,oklch(var(--b1)/1));
+}
+
+.fill-base-200 {
+  fill: var(--fallback-b2,oklch(var(--b2)/1));
 }
 
 .fill-base-content {
   fill: var(--fallback-bc,oklch(var(--bc)/1));
 }
 
-.fill-blue-700 {
-  fill: #1d4ed8;
-}
-
 .fill-gray-50 {
   fill: #f9fafb;
 }
 
-.fill-green-800 {
-  fill: #166534;
+.fill-neutral {
+  fill: var(--fallback-n,oklch(var(--n)/1));
 }
 
 .fill-neutral-content {
@@ -4748,148 +4674,16 @@ details.collapse summary::-webkit-details-marker {
   fill: #ef4444;
 }
 
-.fill-red-600 {
-  fill: #dc2626;
-}
-
-.fill-sky-100 {
-  fill: #e0f2fe;
-}
-
 .fill-sky-200 {
   fill: #bae6fd;
 }
 
-.fill-slate-600 {
-  fill: #475569;
-}
-
-.fill-slate-900 {
-  fill: #0f172a;
-}
-
-.fill-frost-nord10 {
-  fill: #5e81ac;
-}
-
-.fill-frost-nord9 {
-  fill: #81a1c1;
-}
-
-.fill-snowStorm-nord5 {
-  fill: #e5e9f0;
-}
-
-.fill-polarNight-nord2 {
-  fill: #434c5e;
-}
-
-.fill-polarNight-nord3 {
-  fill: #4c566a;
-}
-
-.fill-polarNight-nord0 {
-  fill: #2e3440;
-}
-
-.fill-polarNight-nord1 {
-  fill: #3b4252;
-}
-
-.fill-snowStorm-nord4 {
-  fill: #d8dee9;
-}
-
-.fill-snowStorm-nord6 {
-  fill: #eceff4;
-}
-
-.fill-frost-nord7 {
-  fill: #8fbcbb;
-}
-
-.fill-frost-nord8 {
-  fill: #88c0d0;
-}
-
-.fill-aurora-nord11 {
-  fill: #bf616a;
-}
-
-.fill-aurora-nord12 {
-  fill: #d08770;
-}
-
-.fill-aurora-nord13 {
-  fill: #ebcb8b;
-}
-
-.fill-aurora-nord14 {
-  fill: #a3be8c;
-}
-
-.fill-aurora-nord15 {
-  fill: #b48ead;
-}
-
-.fill-secondary {
-  fill: var(--fallback-s,oklch(var(--s)/1));
-}
-
-.fill-neutral {
-  fill: var(--fallback-n,oklch(var(--n)/1));
-}
-
-.fill-base-200 {
-  fill: var(--fallback-b2,oklch(var(--b2)/1));
-}
-
-.fill-primary-content {
-  fill: var(--fallback-pc,oklch(var(--pc)/1));
-}
-
-.fill-success {
-  fill: var(--fallback-su,oklch(var(--su)/1));
-}
-
-.fill-base-300 {
-  fill: var(--fallback-b3,oklch(var(--b3)/1));
-}
-
-.fill-info {
-  fill: var(--fallback-in,oklch(var(--in)/1));
-}
-
-.fill-primary {
-  fill: var(--fallback-p,oklch(var(--p)/1));
-}
-
-.stroke-amber-300 {
-  stroke: #fcd34d;
+.stroke-base-200 {
+  stroke: var(--fallback-b2,oklch(var(--b2)/1));
 }
 
 .stroke-base-content {
   stroke: var(--fallback-bc,oklch(var(--bc)/1));
-}
-
-.stroke-warning {
-  stroke: var(--fallback-wa,oklch(var(--wa)/1));
-}
-
-.stroke-info {
-  stroke: var(--fallback-in,oklch(var(--in)/1));
-}
-
-.stroke-neutral {
-  stroke: var(--fallback-n,oklch(var(--n)/1));
-}
-
-.stroke-polarNight-nord0 {
-  stroke: #2e3440;
-}
-
-.stroke-base-200 {
-  stroke: var(--fallback-b2,oklch(var(--b2)/1));
 }
 
 .stroke-2 {
@@ -5108,39 +4902,15 @@ details.collapse summary::-webkit-details-marker {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-none {
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-xl {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+.shadow-none {
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -5175,12 +4945,92 @@ details.collapse summary::-webkit-details-marker {
   transition-duration: 150ms;
 }
 
+.transition-none {
+  transition-property: none;
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-\[height\] {
+  transition-property: height;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-\[padding\] {
+  transition-property: padding;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-\[background\] {
+  transition-property: background;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-\[background-color\] {
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-\[grid-template-rows\] {
+  transition-property: grid-template-rows;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-500 {
   transition-duration: 500ms;
 }
 
 .duration-\[3000ms\] {
   transition-duration: 3000ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ease-linear {
+  transition-timing-function: linear;
 }
 
 .animate-alternate {

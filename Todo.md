@@ -12,6 +12,7 @@
 - [ ] make friends elements full color on mobile
 - [ ] add parallax effect for svg footer
 - [ ] change about me background color
+- [ ] add html, css, js, python, sql as skills
 
 
 # WRITINGS PAGE
