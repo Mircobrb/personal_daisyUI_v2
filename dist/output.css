@@ -4361,6 +4361,24 @@ details.collapse summary::-webkit-details-marker {
   flex-basis: 100%;
 }
 
+@keyframes bg-fade {
+  0% {
+    background-color: transparent;
+  }
+
+  50% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: current;
+  }
+}
+
+.animate-bg-fade {
+  animation: bg-fade linear infinite;
+}
+
 @keyframes fade {
   0% {
     opacity: 0;
@@ -4535,18 +4553,6 @@ details.collapse summary::-webkit-details-marker {
   border-bottom-width: 1px;
 }
 
-.border-l-\[1px\] {
-  border-left-width: 1px;
-}
-
-.border-r-\[1px\] {
-  border-right-width: 1px;
-}
-
-.border-t-\[1px\] {
-  border-top-width: 1px;
-}
-
 .border-dashed {
   border-style: dashed;
 }
@@ -4566,24 +4572,24 @@ details.collapse summary::-webkit-details-marker {
   border-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-border-opacity)));
 }
 
-.border-blue-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(29 78 216 / var(--tw-border-opacity));
-}
-
 .border-neutral-content {
   --tw-border-opacity: 1;
   border-color: var(--fallback-nc,oklch(var(--nc)/var(--tw-border-opacity)));
 }
 
-.border-slate-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(71 85 105 / var(--tw-border-opacity));
-}
-
 .bg-amber-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(252 211 77 / var(--tw-bg-opacity));
+}
+
+.bg-aurora-nord12 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 135 112 / var(--tw-bg-opacity));
+}
+
+.bg-aurora-nord15 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(180 142 173 / var(--tw-bg-opacity));
 }
 
 .bg-base-100 {
@@ -4610,6 +4616,11 @@ details.collapse summary::-webkit-details-marker {
   background-color: rgb(0 0 0 / 0.5);
 }
 
+.bg-frost-nord8 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(136 192 208 / var(--tw-bg-opacity));
+}
+
 .bg-purple-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(216 180 254 / var(--tw-bg-opacity));
@@ -4632,6 +4643,16 @@ details.collapse summary::-webkit-details-marker {
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-frost-nord10 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(94 129 172 / var(--tw-bg-opacity));
+}
+
+.bg-aurora-nord14 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(163 190 140 / var(--tw-bg-opacity));
 }
 
 .bg-center {
@@ -4658,6 +4679,10 @@ details.collapse summary::-webkit-details-marker {
   fill: var(--fallback-bc,oklch(var(--bc)/1));
 }
 
+.fill-frost-nord7 {
+  fill: #8fbcbb;
+}
+
 .fill-gray-50 {
   fill: #f9fafb;
 }
@@ -4676,14 +4701,6 @@ details.collapse summary::-webkit-details-marker {
 
 .fill-sky-200 {
   fill: #bae6fd;
-}
-
-.fill-aurora-nord13 {
-  fill: #ebcb8b;
-}
-
-.fill-frost-nord7 {
-  fill: #8fbcbb;
 }
 
 .stroke-base-200 {
@@ -4884,16 +4901,16 @@ details.collapse summary::-webkit-details-marker {
   text-decoration-line: underline;
 }
 
-.decoration-accent {
-  text-decoration-color: var(--fallback-a,oklch(var(--a)/1));
+.decoration-aurora-nord11 {
+  text-decoration-color: #bf616a;
 }
 
-.decoration-primary {
-  text-decoration-color: var(--fallback-p,oklch(var(--p)/1));
+.decoration-aurora-nord14 {
+  text-decoration-color: #a3be8c;
 }
 
-.decoration-secondary {
-  text-decoration-color: var(--fallback-s,oklch(var(--s)/1));
+.decoration-aurora-nord15 {
+  text-decoration-color: #b48ead;
 }
 
 .underline-offset-4 {
@@ -4947,60 +4964,14 @@ details.collapse summary::-webkit-details-marker {
   transition-duration: 150ms;
 }
 
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-none {
-  transition-property: none;
-}
-
-.transition-transform {
-  transition-property: transform;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-colors {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-opacity {
-  transition-property: opacity;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[height\] {
-  transition-property: height;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[padding\] {
-  transition-property: padding;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[background\] {
-  transition-property: background;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-\[background-color\] {
-  transition-property: background-color;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
 .transition-\[grid-template-rows\] {
   transition-property: grid-template-rows;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-all {
+  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -5013,32 +4984,63 @@ details.collapse summary::-webkit-details-marker {
   transition-duration: 3000ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
-.duration-700 {
-  transition-duration: 700ms;
-}
-
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ease-in {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+.animate-delay-1000 {
+  --tw-animate-delay: 1000ms;
+  animation-delay: var(--tw-animate-delay);
 }
 
-.ease-out {
-  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+.animate-delay-\[3000\] {
+  --tw-animate-delay: 3000;
+  animation-delay: var(--tw-animate-delay);
 }
 
-.ease-linear {
-  transition-timing-function: linear;
+.animate-delay-\[3000ms\] {
+  --tw-animate-delay: 3000ms;
+  animation-delay: var(--tw-animate-delay);
+}
+
+.animate-delay-\[5000ms\] {
+  --tw-animate-delay: 5000ms;
+  animation-delay: var(--tw-animate-delay);
+}
+
+.animate-delay-\[6000ms\] {
+  --tw-animate-delay: 6000ms;
+  animation-delay: var(--tw-animate-delay);
+}
+
+.animate-delay-\[4000ms\] {
+  --tw-animate-delay: 4000ms;
+  animation-delay: var(--tw-animate-delay);
+}
+
+.animate-delay-\[4500ms\] {
+  --tw-animate-delay: 4500ms;
+  animation-delay: var(--tw-animate-delay);
+}
+
+.animate-delay-\[3800ms\] {
+  --tw-animate-delay: 3800ms;
+  animation-delay: var(--tw-animate-delay);
+}
+
+.animate-delay-\[800ms\] {
+  --tw-animate-delay: 800ms;
+  animation-delay: var(--tw-animate-delay);
+}
+
+.animate-delay-\[000ms\] {
+  --tw-animate-delay: 000ms;
+  animation-delay: var(--tw-animate-delay);
+}
+
+.animate-delay-\[10000ms\] {
+  --tw-animate-delay: 10000ms;
+  animation-delay: var(--tw-animate-delay);
 }
 
 .animate-alternate {
@@ -5049,6 +5051,11 @@ details.collapse summary::-webkit-details-marker {
 .animate-alternate-reverse {
   --tw-animate-direction: alternate-reverse;
   animation-direction: var(--tw-animate-direction);
+}
+
+.animate-duration-\[10000ms\] {
+  --tw-animate-duration: 10000ms;
+  animation-duration: var(--tw-animate-duration);
 }
 
 .animate-duration-\[2000ms\] {
@@ -5063,6 +5070,41 @@ details.collapse summary::-webkit-details-marker {
 
 .animate-duration-\[4000ms\] {
   --tw-animate-duration: 4000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[5000ms\] {
+  --tw-animate-duration: 5000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[1000ms\] {
+  --tw-animate-duration: 1000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[80000ms\] {
+  --tw-animate-duration: 80000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[60000ms\] {
+  --tw-animate-duration: 60000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[6000ms\] {
+  --tw-animate-duration: 6000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[8000ms\] {
+  --tw-animate-duration: 8000ms;
+  animation-duration: var(--tw-animate-duration);
+}
+
+.animate-duration-\[12000ms\] {
+  --tw-animate-duration: 12000ms;
   animation-duration: var(--tw-animate-duration);
 }
 

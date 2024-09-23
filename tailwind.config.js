@@ -35,7 +35,8 @@ module.exports = {
       },
       animation: {
         "loop-scroll-left": "loop-scroll-left 5s linear infinite",
-        "loop-scroll-right": "loop-scroll-right 20s linear infinite"
+        "loop-scroll-right": "loop-scroll-right 20s linear infinite",
+        "bg-fade": "bg-fade linear infinite",
       },
       keyframes: {
         "loop-scroll-left": {
@@ -47,6 +48,12 @@ module.exports = {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(50%)" }
         },
+        "bg-fade": {
+          "0%": { backgroundColor: "transparent" },
+          "50%": { backgroundColor: "transparent" },
+          "100%": { backgroundColor: "current" }
+        },
+        
       }
     },
   },

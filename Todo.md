@@ -1,3 +1,11 @@
+
+# MAIN PAGE
+- [ ] make friends elements full color on mobile
+- [ ] add parallax effect for svg footer
+- [ ] change about me background color
+- [ ] add html, css, js, python, sql as skills
+- [ ] fix img size too big on small screens landscape mode (modify breakpoint to go on 1 col on smaller breakpoints)
+
 # PROJECTS PAGE
 - [ ] thinkertoys website
 - [ ] surfboard shaping
@@ -6,14 +14,6 @@
 - [ ] innovation olympics
 - [ ] momento
 - [ ] fix carousel (remove modal just shows imgs)
-
-
-# MAIN PAGE
-- [ ] make friends elements full color on mobile
-- [ ] add parallax effect for svg footer
-- [ ] change about me background color
-- [ ] add html, css, js, python, sql as skills
-
 
 # WRITINGS PAGE
 - [ ] list of writings in vertical orientation, like books staked
@@ -44,5 +44,4 @@
 - [ ] change to nord theme changer
 - [ ] fix modal colors
 - [ ] fix hover colors
-- [ ] fix rubik font
 - [ ] fix navbar color
