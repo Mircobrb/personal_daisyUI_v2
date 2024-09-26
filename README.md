@@ -12,3 +12,4 @@ npm run dev
 
 # icons
 flowbite filled https://flowbite.com/icons/
+
