@@ -14,6 +14,7 @@
 - [ ] innovation olympics
 - [ ] momento
 - [ ] fix carousel (remove modal just shows imgs)
+- [ ] move text description under project title, simpify it and shorten it
 
 # WRITINGS PAGE
 - [ ] list of writings in vertical orientation, like books staked
