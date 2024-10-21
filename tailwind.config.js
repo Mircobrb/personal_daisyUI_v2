@@ -75,7 +75,7 @@ module.exports = {
           "base-100": "#2e3440", //nord0
           "base-200": "#3b4252", //nord1
           "base-300": "#434c5e", //nord2
-          "base-content": "#d8dee9", //nord4
+          "base-content": "#eceff4", //nord6
           "info": "#b48ead", //nord15
           // "info-content": "", //
           "success": "#a3be8c", //nord14
@@ -95,10 +95,10 @@ module.exports = {
           // "accent-content": "", //
           "neutral": "#5e81ac", //nord10
           "neutral-content": "#e5e9f0", //nord4
-          "base-100": "#d8dee9", //nord0
-          "base-200": "#e5e9f0", //nord1
-          "base-300": "#eceff4", //nord2
-          "base-content": "#2e3440", //nord6
+          "base-100": "#eceff4", //nord6
+          "base-200": "#e5e9f0", //nord5
+          "base-300": "#d8dee9", //nord4
+          "base-content": "#2e3440", //nord0
           "info": "#b48ead", //nord15
           // "info-content": "", //
           "success": "#a3be8c", //nord14
