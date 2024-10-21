@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "nord00": "var(--nord00)",
         polarNight: {
           nord0: "#2e3440",
           nord1: "#3b4252",
@@ -63,13 +64,14 @@ module.exports = {
         nordDark: {
           "color-scheme": "dark",
           "primary": "#88c0d0", //nord8
-          // "primary-content": "", //
+          "primary-content": "#3b4252", //
           "secondary": "#8fbcbb", //nord7
           // "secondary-content": "", //
           "accent": "#81a1c1", //nord9
           // "accent-content": "", //
           "neutral": "#5e81ac", //nord10
           "neutral-content": "#e5e9f0", //nord4
+          "--nord00": "#242933", //custom value from nord website
           "base-100": "#2e3440", //nord0
           "base-200": "#3b4252", //nord1
           "base-300": "#434c5e", //nord2
