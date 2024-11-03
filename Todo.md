@@ -3,7 +3,6 @@
 - [ ] make friends elements full color on mobile
 - [ ] add parallax effect for svg footer
 - [ ] change about me background color
-- [ ] add html, css, js, python, sql as skills
 - [ ] fix img size too big on small screens landscape mode (modify breakpoint to go on 1 col on smaller breakpoints)
 
 # PROJECTS PAGE
@@ -26,6 +25,7 @@
 
 # EXPERIENCE PAGE
 - [ ] enlarge img on click
+- [ ] add lazyload to img elements
 - [ ] add modal intro section with details of the experience
         add description of companies (cerved group nr1 data provider in italy)
         add date of experience (just year)
@@ -42,7 +42,4 @@
 # THEME CHANGER
 - [ ] fix theme change to show correct icon (improve js script)
 - [ ] remove flick when reloading page
-- [ ] change to nord theme changer
-- [ ] fix modal colors
-- [ ] fix hover colors
-- [ ] fix navbar color
+- [ ] fix nord theme colors (base colors, hover colors)
