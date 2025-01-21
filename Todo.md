@@ -25,7 +25,7 @@
 
 # EXPERIENCE PAGE
 - [ ] enlarge img on click
-- [ ] add lazyload to img elements
+- [x] add lazyload to img elements
 - [ ] add modal intro section with details of the experience
         add description of companies (cerved group nr1 data provider in italy)
         add date of experience (just year)
